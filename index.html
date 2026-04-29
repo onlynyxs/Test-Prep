@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NEB Grade 12 Mathematics (Mat. 008) – Predicted Papers 2081/82</title>
+<title>NEB Grade 12 Mathematics (Mat. 008) – Predicted Papers 2081/82 | Sets 1–10</title>
 <script>
   window.MathJax = {
     tex: { inlineMath:[['$','$'],['\\(','\\)']], displayMath:[['$$','$$'],['\\[','\\]']] },
@@ -13,27 +13,15 @@
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
-
-:root{
-  --ink:#18120a;--accent:#7b1c1c;--accent2:#3b6e45;
-  --border:#2a1a0e;--bg:#f9f7f2;--paper:#fffffe;
-  --muted:#5a4535;--rule:#c8b8a0;--secbg:#f3ede3;
-  --hi:#fff8e1;--hi2:#e8f5e9;
-}
+:root{--ink:#18120a;--accent:#7b1c1c;--accent2:#3b6e45;--border:#2a1a0e;--bg:#f9f7f2;--paper:#fffffe;--muted:#5a4535;--rule:#c8b8a0;--secbg:#f3ede3;--hi:#fff8e1;--hi2:#e8f5e9;}
 *{margin:0;padding:0;box-sizing:border-box;}
 body{font-family:'IBM Plex Sans',sans-serif;background:var(--bg);color:var(--ink);font-size:13.5px;line-height:1.72;}
-
-/* ── NAV ── */
-.nav{position:sticky;top:0;z-index:200;background:var(--border);display:flex;align-items:center;justify-content:center;gap:6px;padding:9px 16px;flex-wrap:wrap;box-shadow:0 2px 8px rgba(0,0,0,.4);}
-.nbtn{background:transparent;border:1px solid #9c7c5c;color:#e8d5b8;padding:5px 18px;border-radius:2px;cursor:pointer;font-size:12.5px;font-family:inherit;letter-spacing:.5px;transition:all .18s;}
+.nav{position:sticky;top:0;z-index:200;background:var(--border);display:flex;align-items:center;justify-content:center;gap:5px;padding:8px 12px;flex-wrap:wrap;box-shadow:0 2px 8px rgba(0,0,0,.4);}
+.nbtn{background:transparent;border:1px solid #9c7c5c;color:#e8d5b8;padding:4px 13px;border-radius:2px;cursor:pointer;font-size:12px;font-family:inherit;letter-spacing:.4px;transition:all .18s;}
 .nbtn:hover,.nbtn.on{background:var(--accent);border-color:var(--accent);color:#fff;}
-.nlbl{color:#b8986e;font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;margin-right:6px;}
-
-/* ── PAGE ── */
+.nlbl{color:#b8986e;font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;margin-right:4px;}
 .page{max-width:870px;margin:0 auto;padding:0 18px 48px;}
 .sblock{display:none;}.sblock.on{display:block;}
-
-/* ── HEADER ── */
 .ehdr{border:3px double var(--border);padding:18px 26px 14px;margin:22px 0 0;background:var(--paper);text-align:center;position:relative;}
 .ehdr::before{content:'◈';position:absolute;top:-13px;left:50%;transform:translateX(-50%);background:var(--paper);padding:0 8px;color:var(--accent);font-size:20px;}
 .eboard{font-family:'Libre Baskerville',serif;font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:3px;}
@@ -43,13 +31,8 @@ body{font-family:'IBM Plex Sans',sans-serif;background:var(--bg);color:var(--ink
 .ptag{background:var(--hi);border:1px solid #e6c000;border-radius:2px;padding:5px 14px;margin-top:8px;font-size:11.5px;color:#7a5c00;font-weight:600;display:inline-block;}
 .metarow{display:flex;justify-content:space-between;border-top:1px solid var(--rule);padding-top:9px;margin-top:10px;font-size:12.5px;color:var(--muted);}
 .metarow span{font-weight:700;color:var(--ink);}
-.ctag{background:var(--hi2);border:1px solid #81c784;border-radius:2px;padding:4px 12px;font-size:11px;color:#1b5e20;font-weight:600;display:inline-block;margin-top:6px;}
-
-/* ── INSTRUCTIONS ── */
 .instr{background:var(--secbg);border-left:4px solid var(--accent);padding:9px 15px;margin:12px 0;font-size:12.5px;color:var(--muted);}
 .instr strong{color:var(--accent);}
-
-/* ── COVERAGE BOX ── */
 .covbox{background:#fff9f0;border:1px solid #ffb74d;border-radius:3px;padding:11px 15px;margin:14px 0;font-size:12.5px;}
 .covbox h4{color:#bf360c;margin-bottom:7px;font-size:13px;}
 .tags{display:flex;flex-wrap:wrap;gap:5px;margin:4px 0;}
@@ -58,14 +41,10 @@ body{font-family:'IBM Plex Sans',sans-serif;background:var(--bg);color:var(--ink
 .tb{background:#e3f2fd;color:#0d47a1;border:1px solid #90caf9;}
 .tg2{background:#e8f5e9;color:#1b5e20;border:1px solid #a5d6a7;}
 .tp{background:#f3e5f5;color:#4a148c;border:1px solid #ce93d8;}
-
-/* ── GROUP HEADER ── */
 .ghdr{background:var(--border);color:#f0e2cc;padding:8px 17px;margin:20px 0 0;display:flex;justify-content:space-between;align-items:center;}
 .gtitle{font-family:'Libre Baskerville',serif;font-size:16px;font-weight:700;}
 .gdesc{font-size:11px;color:#c0a07a;}
 .gmarks{background:var(--accent);color:#fff;padding:3px 13px;border-radius:2px;font-size:13px;font-weight:700;}
-
-/* ── QUESTIONS ── */
 .qbox{border:1px solid var(--rule);border-top:none;background:var(--paper);padding:4px 0 8px;}
 .qrow{display:flex;align-items:flex-start;padding:7px 17px;border-bottom:1px dotted #ddd0bc;gap:10px;}
 .qrow:last-child{border-bottom:none;}
@@ -80,8 +59,6 @@ body{font-family:'IBM Plex Sans',sans-serif;background:var(--bg);color:var(--ink
 .dtbl{border-collapse:collapse;margin:8px 0 4px 24px;font-size:12.5px;}
 .dtbl th,.dtbl td{border:1px solid var(--rule);padding:4px 11px;text-align:center;}
 .dtbl th{background:var(--secbg);font-weight:700;}
-
-/* ── ANSWER KEY ── */
 .akey{background:#f1f8e9;border:1px solid #8bc34a;margin:10px 0;border-radius:3px;overflow:hidden;}
 .akhdr{background:#558b2f;color:#fff;padding:6px 16px;font-weight:700;font-size:13px;cursor:pointer;display:flex;justify-content:space-between;user-select:none;}
 .akbody{padding:10px 16px;font-size:12.5px;display:none;}
@@ -89,21 +66,8 @@ body{font-family:'IBM Plex Sans',sans-serif;background:var(--bg);color:var(--ink
 .akgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:5px 18px;}
 .aki{display:flex;gap:7px;padding:2px 0;}
 .akq{font-weight:700;color:var(--accent);min-width:30px;}
-
-/* ── CURRICULUM NOTE ── */
-.currnote{background:#e8eaf6;border:1px solid #5c6bc0;border-radius:4px;padding:11px 15px;margin:14px 0;font-size:12.5px;color:#1a237e;}
-.currnote strong{color:#283593;}
-
-/* ── FOOTER ── */
 .foot{text-align:center;padding:20px;color:var(--muted);font-size:12px;border-top:1px solid var(--rule);margin-top:30px;line-height:1.8;}
-
-@media print{
-  .nav{display:none;}
-  .sblock{display:block!important;page-break-before:always;}
-  .sblock:first-child{page-break-before:avoid;}
-  .covbox,.currnote{display:none;}
-  body{background:white;}
-}
+@media print{.nav{display:none;}.sblock{display:block!important;page-break-before:always;}.sblock:first-child{page-break-before:avoid;}.covbox{display:none;}body{background:white;}}
 </style>
 </head>
 <body>
@@ -113,14 +77,20 @@ body{font-family:'IBM Plex Sans',sans-serif;background:var(--bg);color:var(--ink
   <button class="nbtn on" onclick="show(1)">SET 1</button>
   <button class="nbtn" onclick="show(2)">SET 2</button>
   <button class="nbtn" onclick="show(3)">SET 3</button>
-  <button class="nbtn" onclick="window.print()" style="margin-left:18px;background:#4a3a2a;border-color:#9c7c5c;">🖨 Print All</button>
+  <button class="nbtn" onclick="show(4)">SET 4</button>
+  <button class="nbtn" onclick="show(5)">SET 5</button>
+  <button class="nbtn" onclick="show(6)">SET 6</button>
+  <button class="nbtn" onclick="show(7)">SET 7</button>
+  <button class="nbtn" onclick="show(8)">SET 8</button>
+  <button class="nbtn" onclick="show(9)">SET 9</button>
+  <button class="nbtn" onclick="show(10)">SET 10</button>
+  <button class="nbtn" onclick="window.print()" style="margin-left:14px;background:#4a3a2a;border-color:#9c7c5c;">🖨 Print All</button>
 </div>
 
 <div class="page">
 
 <!-- ═══════════════════════ SET 1 ═══════════════════════ -->
 <div class="sblock on" id="s1">
-
 <div class="ehdr">
   <div class="eboard">National Examination Board (NEB) — Nepal</div>
   <div class="etitle">Grade 12 — Mathematics</div>
@@ -128,745 +98,432 @@ body{font-family:'IBM Plex Sans',sans-serif;background:var(--bg);color:var(--ink
   <div class="sbadge">SET — 1</div><br>
   <div class="ptag">⭐ Predicted Paper 2081/82 B.S. — Strictly aligned with NEB Curriculum 2078</div>
   <div class="metarow">
-    <div>Full Marks: <span>75</span></div>
-    <div>Pass Marks: <span>27</span></div>
-    <div>Time: <span>3 Hours</span></div>
-    <div>Date: <span>____________________</span></div>
+    <div>Full Marks: <span>75</span></div><div>Pass Marks: <span>27</span></div>
+    <div>Time: <span>3 Hours</span></div><div>Date: <span>____________________</span></div>
   </div>
 </div>
-
-<div class="currnote">
-  <strong>📋 Curriculum Note (Mat. 008 — Grade 12 Only):</strong> All questions in this paper are strictly drawn from the Grade 12 syllabus: Algebra (Permutation/Combination, Binomial Theorem, Complex Numbers, PMI, Matrix Methods), Trigonometry (Properties of Triangle), Analytic Geometry (Conic Sections), Vectors (Scalar &amp; Vector Products), Statistics &amp; Probability (Correlation, Regression, Conditional Probability), Calculus (Hyperbolic Functions, L'Hôpital's Rule, Anti-derivatives, Differential Equations), and Computational Methods/Mechanics.
-</div>
-
-<div class="instr">
-  <strong>Candidates are required to answer questions in their own words as far as practicable.</strong>
-  Figures in the margin indicate full marks. Attempt <strong>ALL</strong> questions.
-</div>
-
-<div class="covbox">
-  <h4>📊 SET 1 — Dominant Topics (Grade 12 Only)</h4>
-  <div class="tags">
-    <span class="tg tr">🔥 Binomial Theorem + PMI</span>
-    <span class="tg tr">🔥 De Moivre's Theorem</span>
-    <span class="tg tr">🔥 Correlation &amp; Regression</span>
-    <span class="tg tb">📐 Parabola (Tangent/Normal)</span>
-    <span class="tg tb">📐 Hyperbola (Standard Form)</span>
-    <span class="tg tg2">📗 Linear Differential Equations</span>
-    <span class="tg tg2">📗 Partial Fractions</span>
-    <span class="tg tp">⚙ Simplex Method (LPP)</span>
-  </div>
-</div>
-
-<!-- GROUP A -->
-<div class="ghdr">
-  <div><div class="gtitle">Group A — Very Short Answer Questions</div>
-  <div class="gdesc">Answer ALL questions &nbsp;|&nbsp; Each carries 1 mark</div></div>
-  <div class="gmarks">11 × 1 = 11</div>
-</div>
+<div class="instr"><strong>Candidates are required to answer questions in their own words as far as practicable.</strong> Figures in the margin indicate full marks. Attempt <strong>ALL</strong> questions.</div>
+<div class="covbox"><h4>📊 SET 1 — Dominant Topics</h4><div class="tags"><span class="tg tr">🔥 Binomial Theorem + PMI</span><span class="tg tr">🔥 De Moivre's Theorem</span><span class="tg tr">🔥 Correlation &amp; Regression</span><span class="tg tb">📐 Parabola (Tangent/Normal)</span><span class="tg tb">📐 Hyperbola (Standard Form)</span><span class="tg tg2">📗 Linear Differential Equations</span><span class="tg tg2">📗 Partial Fractions</span><span class="tg tp">⚙ Simplex Method (LPP)</span></div></div>
+<div class="ghdr"><div><div class="gtitle">Group A — Very Short Answer Questions</div><div class="gdesc">Answer ALL questions &nbsp;|&nbsp; Each carries 1 mark</div></div><div class="gmarks">11 × 1 = 11</div></div>
 <div class="qbox">
-
-  <div class="qrow"><div class="qn">1.</div>
-  <div class="qt">In how many ways can a committee of 4 be selected from 9 people?</div>
-  <div class="qm">[1]</div></div>
-
-  <div class="qrow"><div class="qn">2.</div>
-  <div class="qt">Find the general term $T_{r+1}$ in the expansion of $\left(x^2 - \dfrac{1}{x}\right)^9$.</div>
-  <div class="qm">[1]</div></div>
-
-  <div class="qrow"><div class="qn">3.</div>
-  <div class="qt">Express $z = -\sqrt{3} + i$ in polar form.</div>
-  <div class="qm">[1]</div></div>
-
-  <div class="qrow"><div class="qn">4.</div>
-  <div class="qt">If $1, \omega, \omega^2$ are cube roots of unity, find the value of $\omega^{48} + \omega^{49} + \omega^{50}$.</div>
-  <div class="qm">[1]</div></div>
-
-  <div class="qrow"><div class="qn">5.</div>
-  <div class="qt">Find the value of $D$ (main determinant) for the system: $2x + 3y = 7$ and $x - y = 1$ using Cramer's rule.</div>
-  <div class="qm">[1]</div></div>
-
-  <div class="qrow"><div class="qn">6.</div>
-  <div class="qt">In $\triangle ABC$, if $a = 3$, $b = 4$, $C = 60°$, find $c$ using the cosine law.</div>
-  <div class="qm">[1]</div></div>
-
-  <div class="qrow"><div class="qn">7.</div>
-  <div class="qt">Find the focus and directrix of the parabola $y^2 = 16x$.</div>
-  <div class="qm">[1]</div></div>
-
-  <div class="qrow"><div class="qn">8.</div>
-  <div class="qt">If $\vec{a} = 2\hat{i} + \hat{j} - \hat{k}$ and $\vec{b} = \hat{i} - 2\hat{j} + 3\hat{k}$, find $\vec{a} \cdot \vec{b}$.</div>
-  <div class="qm">[1]</div></div>
-
-  <div class="qrow"><div class="qn">9.</div>
-  <div class="qt">If regression coefficients $b_{yx} = 0.6$ and $b_{xy} = 0.4$, find the coefficient of correlation $r$.</div>
-  <div class="qm">[1]</div></div>
-
-  <div class="qrow"><div class="qn">10.</div>
-  <div class="qt">Using L'Hôpital's rule, evaluate: $\displaystyle\lim_{x \to 0} \dfrac{e^{3x}-1}{x}$.</div>
-  <div class="qm">[1]</div></div>
-
-  <div class="qrow"><div class="qn">11.</div>
-  <div class="qt">Write the order and degree of the differential equation: $\left(\dfrac{d^2y}{dx^2}\right)^3 + 4\dfrac{dy}{dx} = 0$.</div>
-  <div class="qm">[1]</div></div>
-
+  <div class="qrow"><div class="qn">1.</div><div class="qt">In how many ways can a committee of 4 be selected from 9 people?</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">2.</div><div class="qt">Find the general term $T_{r+1}$ in the expansion of $\left(x^2 - \dfrac{1}{x}\right)^9$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">3.</div><div class="qt">Express $z = -\sqrt{3} + i$ in polar form.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">4.</div><div class="qt">If $1, \omega, \omega^2$ are cube roots of unity, find $\omega^{48} + \omega^{49} + \omega^{50}$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">5.</div><div class="qt">Find the value of $D$ for the system: $2x + 3y = 7$ and $x - y = 1$ using Cramer's rule.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">6.</div><div class="qt">In $\triangle ABC$, if $a = 3$, $b = 4$, $C = 60°$, find $c$ using the cosine law.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">7.</div><div class="qt">Find the focus and directrix of the parabola $y^2 = 16x$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">8.</div><div class="qt">If $\vec{a} = 2\hat{i}+\hat{j}-\hat{k}$ and $\vec{b} = \hat{i}-2\hat{j}+3\hat{k}$, find $\vec{a}\cdot\vec{b}$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">9.</div><div class="qt">If regression coefficients $b_{yx} = 0.6$ and $b_{xy} = 0.4$, find $r$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">10.</div><div class="qt">Using L'Hôpital's rule, evaluate: $\displaystyle\lim_{x\to0}\dfrac{e^{3x}-1}{x}$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">11.</div><div class="qt">Write the order and degree of: $\left(\dfrac{d^2y}{dx^2}\right)^3 + 4\dfrac{dy}{dx} = 0$.</div><div class="qm">[1]</div></div>
 </div>
-
-<!-- GROUP B -->
-<div class="ghdr">
-  <div><div class="gtitle">Group B — Short Answer Questions</div>
-  <div class="gdesc">Answer ALL questions &nbsp;|&nbsp; Internal choices marked OR</div></div>
-  <div class="gmarks">8 × 5 = 40</div>
-</div>
+<div class="ghdr"><div><div class="gtitle">Group B — Short Answer Questions</div><div class="gdesc">Answer ALL questions &nbsp;|&nbsp; Internal choices marked OR</div></div><div class="gmarks">8 × 5 = 40</div></div>
 <div class="qbox">
-
-  <div class="qrow"><div class="qn">12.</div>
-  <div class="qt">Using the Principle of Mathematical Induction, prove:
-  $$1^2 + 2^2 + 3^2 + \cdots + n^2 = \frac{n(n+1)(2n+1)}{6}$$</div>
-  <div class="qm">[5]</div></div>
-
-  <div class="qrow"><div class="qn">13.</div>
-  <div class="qt">State and prove De Moivre's theorem for a positive integer $n$. Use it to find the three cube roots of $-8$.</div>
-  <div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">12.</div><div class="qt">Using PMI, prove: $1^2+2^2+\cdots+n^2 = \dfrac{n(n+1)(2n+1)}{6}$</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">13.</div><div class="qt">State and prove De Moivre's theorem for a positive integer $n$. Use it to find the three cube roots of $-8$.</div><div class="qm">[5]</div></div>
   <div class="orr">OR</div>
-  <div class="qrow"><div class="qn"></div>
-  <div class="qt">Write the expansion of $e^x$ (without proof). Hence expand $e^{2x}$ and use it to show that:
-  $$e = 1 + 1 + \frac{1}{2!} + \frac{1}{3!} + \frac{1}{4!} + \cdots$$
-  Also find the approximate value of $e^{0.1}$ correct to 4 decimal places.</div>
-  <div class="qm">[5]</div></div>
-
-  <div class="qrow"><div class="qn">14.</div>
-  <div class="qt">In any $\triangle ABC$, prove the <strong>Sine Law</strong>:
-  $$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$$
-  Hence solve the triangle if $A = 45°$, $B = 60°$, $a = \sqrt{6}$.</div>
-  <div class="qm">[5]</div></div>
-
-  <div class="qrow"><div class="qn">15.</div>
-  <div class="qt">Find the equations of the tangent and normal to the parabola $y^2 = 4ax$ at the point $P(at^2, 2at)$. Hence find the equation of the tangent at the point $(1, 2)$ to the parabola $y^2 = 4x$.</div>
-  <div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn"></div><div class="qt">Write the expansion of $e^x$ (without proof). Hence expand $e^{2x}$ and show that $e=1+1+\frac{1}{2!}+\frac{1}{3!}+\cdots$. Find the approximate value of $e^{0.1}$ correct to 4 decimal places.</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">14.</div><div class="qt">In any $\triangle ABC$, prove: $\dfrac{a}{\sin A}=\dfrac{b}{\sin B}=\dfrac{c}{\sin C}$. Hence solve the triangle if $A=45°$, $B=60°$, $a=\sqrt{6}$.</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">15.</div><div class="qt">Find the equations of the tangent and normal to the parabola $y^2=4ax$ at $P(at^2,2at)$. Hence find the tangent at $(1,2)$ to $y^2=4x$.</div><div class="qm">[5]</div></div>
   <div class="orr">OR</div>
-  <div class="qrow"><div class="qn"></div>
-  <div class="qt">Derive the standard equation of the ellipse $\dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} = 1\; (a > b > 0)$. Find the eccentricity, vertices, and foci if $a = 5$, $b = 4$.</div>
-  <div class="qm">[5]</div></div>
-
-  <div class="qrow"><div class="qn">16.</div>
-  <div class="qt">Derive the standard equation of the hyperbola $\dfrac{x^2}{a^2} - \dfrac{y^2}{b^2} = 1$. For the hyperbola $9x^2 - 16y^2 = 144$, find the eccentricity, foci, and equations of directrices.</div>
-  <div class="qm">[5]</div></div>
-
-  <div class="qrow"><div class="qn">17.</div>
-  <div class="qt">For $\vec{a} = 2\hat{i} + \hat{j} - 2\hat{k}$ and $\vec{b} = \hat{i} + 2\hat{j} + 3\hat{k}$:
-  <div class="sq" style="margin-top:5px;"><div class="sl">(a)</div><div class="st">Find $\vec{a} \times \vec{b}$.</div></div>
-  <div class="sq"><div class="sl">(b)</div><div class="st">Find the area of the parallelogram with $\vec{a}$ and $\vec{b}$ as adjacent sides.</div></div>
-  <div class="sq"><div class="sl">(c)</div><div class="st">Find the unit vector perpendicular to both $\vec{a}$ and $\vec{b}$.</div></div></div>
-  <div class="qm">[5]</div></div>
-
-  <div class="qrow"><div class="qn">18.</div>
-  <div class="qt">From the following data, compute the regression line of $Y$ on $X$ and estimate $Y$ when $X = 25$:
-  <br><br>
-  <table class="dtbl">
-    <tr><th>$X$</th><td>20</td><td>22</td><td>24</td><td>26</td><td>28</td><td>30</td></tr>
-    <tr><th>$Y$</th><td>28</td><td>30</td><td>26</td><td>35</td><td>32</td><td>40</td></tr>
-  </table></div>
-  <div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn"></div><div class="qt">Derive the standard equation of the ellipse $\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1$. Find eccentricity, vertices, and foci if $a=5$, $b=4$.</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">16.</div><div class="qt">Derive the standard equation of the hyperbola $\dfrac{x^2}{a^2}-\dfrac{y^2}{b^2}=1$. For $9x^2-16y^2=144$, find eccentricity, foci, and directrices.</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">17.</div><div class="qt">For $\vec{a}=2\hat{i}+\hat{j}-2\hat{k}$ and $\vec{b}=\hat{i}+2\hat{j}+3\hat{k}$: (a) Find $\vec{a}\times\vec{b}$. (b) Area of parallelogram. (c) Unit vector perpendicular to both.</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">18.</div><div class="qt">Compute the regression line of $Y$ on $X$ and estimate $Y$ when $X=25$:<br><br><table class="dtbl"><tr><th>$X$</th><td>20</td><td>22</td><td>24</td><td>26</td><td>28</td><td>30</td></tr><tr><th>$Y$</th><td>28</td><td>30</td><td>26</td><td>35</td><td>32</td><td>40</td></tr></table></div><div class="qm">[5]</div></div>
   <div class="orr">OR</div>
-  <div class="qrow"><div class="qn"></div>
-  <div class="qt">A bag contains 5 red and 3 blue balls. Two balls are drawn one by one <strong>without replacement</strong>. Find the probability that:
-  <div class="sq" style="margin-top:4px;"><div class="sl">(i)</div><div class="st">both balls are red,</div></div>
-  <div class="sq"><div class="sl">(ii)</div><div class="st">the first is red and second is blue,</div></div>
-  <div class="sq"><div class="sl">(iii)</div><div class="st">at least one ball is red.</div></div></div>
-  <div class="qm">[5]</div></div>
-
-  <div class="qrow"><div class="qn">19.</div>
-  <div class="qt">Evaluate using partial fractions:
-  $$\int \frac{3x+2}{(x-1)(x+1)(x+2)}\, dx$$</div>
-  <div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn"></div><div class="qt">A bag contains 5 red and 3 blue balls. Two are drawn without replacement. Find: (i) P(both red), (ii) P(first red, second blue), (iii) P(at least one red).</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">19.</div><div class="qt">Evaluate using partial fractions: $\displaystyle\int\frac{3x+2}{(x-1)(x+1)(x+2)}\,dx$</div><div class="qm">[5]</div></div>
   <div class="orr">OR</div>
-  <div class="qrow"><div class="qn"></div>
-  <div class="qt">Solve the linear differential equation:
-  $$\frac{dy}{dx} + y\cot x = 2\cos x$$</div>
-  <div class="qm">[5]</div></div>
-
+  <div class="qrow"><div class="qn"></div><div class="qt">Solve the linear differential equation: $\dfrac{dy}{dx}+y\cot x=2\cos x$</div><div class="qm">[5]</div></div>
 </div>
-
-<!-- GROUP C -->
-<div class="ghdr">
-  <div><div class="gtitle">Group C — Long Answer Questions</div>
-  <div class="gdesc">Answer ALL questions &nbsp;|&nbsp; Each question has an internal choice</div></div>
-  <div class="gmarks">3 × 8 = 24</div>
-</div>
+<div class="ghdr"><div><div class="gtitle">Group C — Long Answer Questions</div><div class="gdesc">Answer ALL questions &nbsp;|&nbsp; Each question has an internal choice</div></div><div class="gmarks">3 × 8 = 24</div></div>
 <div class="qbox">
-
-  <div class="qrow"><div class="qn">20.</div>
-  <div class="qt">
-    <div class="sq"><div class="sl">(a)</div><div class="st">Find the equation of tangent and normal to the curve $y = x^3 - 2x^2 + x$ at the point $(2, 2)$. Also find the angle the tangent makes with the positive $x$-axis. &nbsp;<em style="color:var(--muted);font-size:11.5px;">[4 marks]</em></div></div>
-    <div class="sq" style="margin-top:6px;"><div class="sl">(b)</div><div class="st">A particle moves along the curve defined parametrically by $x = 2t^2$, $y = t^3 - 3t$ where $t$ is time in seconds. Find the velocity and acceleration vectors at $t = 2$. Also find the speed at $t = 2$. &nbsp;<em style="color:var(--muted);font-size:11.5px;">[4 marks]</em></div></div>
-  </div>
-  <div class="qm">[8]</div></div>
+  <div class="qrow"><div class="qn">20.</div><div class="qt"><div class="sq"><div class="sl">(a)</div><div class="st">Find the equation of tangent and normal to $y=x^3-2x^2+x$ at $(2,2)$. Find the angle the tangent makes with the positive $x$-axis. <em style="color:var(--muted);font-size:11.5px;">[4 marks]</em></div></div><div class="sq" style="margin-top:6px;"><div class="sl">(b)</div><div class="st">A particle moves along $x=2t^2$, $y=t^3-3t$. Find velocity and acceleration vectors at $t=2$, and speed at $t=2$. <em style="color:var(--muted);font-size:11.5px;">[4 marks]</em></div></div></div><div class="qm">[8]</div></div>
   <div class="orr">OR</div>
-  <div class="qrow"><div class="qn"></div>
-  <div class="qt">Solve the homogeneous differential equation:
-  $$\frac{dy}{dx} = \frac{x^2 + y^2}{2xy}$$</div>
-  <div class="qm">[8]</div></div>
-
-  <div class="qrow"><div class="qn">21.</div>
-  <div class="qt">Using the <strong>Simplex method</strong>, solve the following LPP:
-  <br><br>
-  <strong>Maximize</strong> $Z = 5x_1 + 4x_2$<br>
-  Subject to:
-  $$6x_1 + 4x_2 \leq 24, \quad x_1 + 2x_2 \leq 6, \quad x_1, x_2 \geq 0$$
-  Prepare the initial simplex table, perform pivot operations, and state the optimal solution.</div>
-  <div class="qm">[8]</div></div>
+  <div class="qrow"><div class="qn"></div><div class="qt">Solve the homogeneous differential equation: $\dfrac{dy}{dx}=\dfrac{x^2+y^2}{2xy}$</div><div class="qm">[8]</div></div>
+  <div class="qrow"><div class="qn">21.</div><div class="qt">Using the <strong>Simplex method</strong>, solve: Maximize $Z=5x_1+4x_2$ subject to $6x_1+4x_2\leq24$, $x_1+2x_2\leq6$, $x_1,x_2\geq0$. Prepare the initial simplex table, perform pivot operations, and state the optimal solution.</div><div class="qm">[8]</div></div>
   <div class="orr">OR</div>
-  <div class="qrow"><div class="qn"></div>
-  <div class="qt">Solve the following system of equations using <strong>Gauss Elimination</strong> method:
-  $$x + 2y + z = 8$$
-  $$2x - y + 3z = 11$$
-  $$3x + y - z = 4$$</div>
-  <div class="qm">[8]</div></div>
-
-  <div class="qrow"><div class="qn">22.</div>
-  <div class="qt">The following table gives the marks of 7 students in Mathematics $(X)$ and Statistics $(Y)$:
-  <br><br>
-  <table class="dtbl">
-    <tr><th>$X$</th><td>62</td><td>72</td><td>98</td><td>76</td><td>81</td><td>56</td><td>95</td></tr>
-    <tr><th>$Y$</th><td>65</td><td>78</td><td>90</td><td>80</td><td>75</td><td>60</td><td>88</td></tr>
-  </table>
-  <br>
-  Find: (i) Karl Pearson's coefficient of correlation, (ii) the regression line of $Y$ on $X$, (iii) estimated value of $Y$ when $X = 70$.</div>
-  <div class="qm">[8]</div></div>
+  <div class="qrow"><div class="qn"></div><div class="qt">Solve using <strong>Gauss Elimination</strong>: $x+2y+z=8$, $2x-y+3z=11$, $3x+y-z=4$.</div><div class="qm">[8]</div></div>
+  <div class="qrow"><div class="qn">22.</div><div class="qt">The following table gives marks of 7 students in Mathematics $(X)$ and Statistics $(Y)$:<br><br><table class="dtbl"><tr><th>$X$</th><td>62</td><td>72</td><td>98</td><td>76</td><td>81</td><td>56</td><td>95</td></tr><tr><th>$Y$</th><td>65</td><td>78</td><td>90</td><td>80</td><td>75</td><td>60</td><td>88</td></tr></table><br>Find: (i) Karl Pearson's $r$, (ii) regression line of $Y$ on $X$, (iii) estimated $Y$ when $X=70$.</div><div class="qm">[8]</div></div>
   <div class="orr">OR</div>
-  <div class="qrow"><div class="qn"></div>
-  <div class="qt">In a class, 40% of students passed Mathematics, 30% passed Physics, and 20% passed both.
-  <div class="sq" style="margin-top:4px;"><div class="sl">(a)</div><div class="st">Find the probability that a student passed Physics given that he passed Mathematics.</div></div>
-  <div class="sq"><div class="sl">(b)</div><div class="st">Find the probability that a student passed Mathematics given that he passed Physics.</div></div>
-  <div class="sq"><div class="sl">(c)</div><div class="st">Are the events "passed Mathematics" and "passed Physics" independent? Justify.</div></div>
-  <div class="sq"><div class="sl">(d)</div><div class="st">Find the probability that a randomly selected student passed at least one subject.</div></div></div>
-  <div class="qm">[8]</div></div>
-
+  <div class="qrow"><div class="qn"></div><div class="qt">In a class, 40% passed Maths, 30% passed Physics, 20% passed both. (a) P(passed Physics | passed Maths). (b) P(passed Maths | passed Physics). (c) Are the events independent? (d) P(passed at least one subject).</div><div class="qm">[8]</div></div>
 </div>
-
-<div class="akey">
-  <div class="akhdr" onclick="tog(this)">✅ Group A — Answer Key &nbsp;(Click to expand) <span>▼</span></div>
-  <div class="akbody">
-    <div class="akgrid">
-      <div class="aki"><div class="akq">Q1.</div><div>$^9C_4 = \dfrac{9!}{4!\,5!} = 126$</div></div>
-      <div class="aki"><div class="akq">Q2.</div><div>$T_{r+1} = \binom{9}{r}(x^2)^{9-r}\!\left(-\tfrac{1}{x}\right)^r = \binom{9}{r}(-1)^r x^{18-3r}$</div></div>
-      <div class="aki"><div class="akq">Q3.</div><div>$|z|=2$, $\arg = \tfrac{5\pi}{6}$; &nbsp;$z=2\!\left(\cos\tfrac{5\pi}{6}+i\sin\tfrac{5\pi}{6}\right)$</div></div>
-      <div class="aki"><div class="akq">Q4.</div><div>$\omega^{48}+\omega^{49}+\omega^{50}=1+\omega+\omega^2=0$</div></div>
-      <div class="aki"><div class="akq">Q5.</div><div>$D=\begin{vmatrix}2&3\\1&-1\end{vmatrix}=-2-3=-5$</div></div>
-      <div class="aki"><div class="akq">Q6.</div><div>$c^2=9+16-24\cdot\tfrac{1}{2}=13$; $\;c=\sqrt{13}$</div></div>
-      <div class="aki"><div class="akq">Q7.</div><div>Focus: $(4,0)$; Directrix: $x=-4$</div></div>
-      <div class="aki"><div class="akq">Q8.</div><div>$\vec{a}\cdot\vec{b}=2-2-3=-3$</div></div>
-      <div class="aki"><div class="akq">Q9.</div><div>$r=\sqrt{0.6\times0.4}=\sqrt{0.24}\approx0.490$</div></div>
-      <div class="aki"><div class="akq">Q10.</div><div>$\lim=3$ (L'Hôpital: $\tfrac{3e^{3x}}{1}\big|_{x=0}=3$)</div></div>
-      <div class="aki"><div class="akq">Q11.</div><div>Order: $2$, &nbsp;Degree: $3$</div></div>
-    </div>
-  </div>
-</div>
-
-</div><!-- /set1 -->
-
+<div class="akey"><div class="akhdr" onclick="tog(this)">✅ Group A — Answer Key (Click to expand) <span>▼</span></div><div class="akbody"><div class="akgrid">
+  <div class="aki"><div class="akq">Q1.</div><div>$^9C_4=126$</div></div>
+  <div class="aki"><div class="akq">Q2.</div><div>$T_{r+1}=\binom{9}{r}(-1)^r x^{18-3r}$</div></div>
+  <div class="aki"><div class="akq">Q3.</div><div>$2\!\left(\cos\tfrac{5\pi}{6}+i\sin\tfrac{5\pi}{6}\right)$</div></div>
+  <div class="aki"><div class="akq">Q4.</div><div>$1+\omega+\omega^2=0$</div></div>
+  <div class="aki"><div class="akq">Q5.</div><div>$D=-2-3=-5$</div></div>
+  <div class="aki"><div class="akq">Q6.</div><div>$c=\sqrt{13}$</div></div>
+  <div class="aki"><div class="akq">Q7.</div><div>Focus $(4,0)$; Directrix $x=-4$</div></div>
+  <div class="aki"><div class="akq">Q8.</div><div>$\vec{a}\cdot\vec{b}=2-2-3=-3$</div></div>
+  <div class="aki"><div class="akq">Q9.</div><div>$r=\sqrt{0.24}\approx0.490$</div></div>
+  <div class="aki"><div class="akq">Q10.</div><div>$3$</div></div>
+  <div class="aki"><div class="akq">Q11.</div><div>Order $2$, Degree $3$</div></div>
+</div></div></div>
+</div><!-- /s1 -->
 
 <!-- ═══════════════════════ SET 2 ═══════════════════════ -->
 <div class="sblock" id="s2">
-
 <div class="ehdr">
   <div class="eboard">National Examination Board (NEB) — Nepal</div>
   <div class="etitle">Grade 12 — Mathematics</div>
   <div class="esubtitle">Subject Code: Mat. 008 &nbsp;|&nbsp; Secondary Education Examination</div>
   <div class="sbadge">SET — 2</div><br>
   <div class="ptag">⭐ Predicted Paper 2081/82 B.S. — Strictly aligned with NEB Curriculum 2078</div>
-  <div class="metarow">
-    <div>Full Marks: <span>75</span></div>
-    <div>Pass Marks: <span>27</span></div>
-    <div>Time: <span>3 Hours</span></div>
-    <div>Date: <span>____________________</span></div>
-  </div>
+  <div class="metarow"><div>Full Marks: <span>75</span></div><div>Pass Marks: <span>27</span></div><div>Time: <span>3 Hours</span></div><div>Date: <span>____________________</span></div></div>
 </div>
-
-<div class="instr">
-  <strong>Candidates are required to answer questions in their own words as far as practicable.</strong>
-  Figures in the margin indicate full marks. Attempt <strong>ALL</strong> questions.
-</div>
-
-<div class="covbox">
-  <h4>📊 SET 2 — Dominant Topics (Grade 12 Only)</h4>
-  <div class="tags">
-    <span class="tg tr">🔥 Complex Numbers (Polar + Cube Roots)</span>
-    <span class="tg tr">🔥 Cosine Law + Half-Angle Formulas</span>
-    <span class="tg tr">🔥 Spearman's Rank Correlation</span>
-    <span class="tg tb">📐 Circle Tangency + Ellipse Tangent</span>
-    <span class="tg tb">📐 Scalar Product Applications</span>
-    <span class="tg tg2">📗 Homogeneous Differential Equations</span>
-    <span class="tg tg2">📗 L'Hôpital (∞/∞ form)</span>
-    <span class="tg tp">⚙ Gauss-Seidel + Mechanics (Lami)</span>
-  </div>
-</div>
-
-<!-- GROUP A -->
-<div class="ghdr">
-  <div><div class="gtitle">Group A — Very Short Answer Questions</div>
-  <div class="gdesc">Answer ALL questions &nbsp;|&nbsp; Each carries 1 mark</div></div>
-  <div class="gmarks">11 × 1 = 11</div>
-</div>
+<div class="instr"><strong>Candidates are required to answer questions in their own words as far as practicable.</strong> Figures in the margin indicate full marks. Attempt <strong>ALL</strong> questions.</div>
+<div class="covbox"><h4>📊 SET 2 — Dominant Topics</h4><div class="tags"><span class="tg tr">🔥 Complex Numbers (Polar + Cube Roots)</span><span class="tg tr">🔥 Cosine Law + Half-Angle Formulas</span><span class="tg tr">🔥 Spearman's Rank Correlation</span><span class="tg tb">📐 Circle Tangency + Ellipse Tangent</span><span class="tg tb">📐 Scalar Product Applications</span><span class="tg tg2">📗 Homogeneous Differential Equations</span><span class="tg tg2">📗 L'Hôpital (∞/∞ form)</span><span class="tg tp">⚙ Gauss-Seidel + Mechanics (Lami)</span></div></div>
+<div class="ghdr"><div><div class="gtitle">Group A — Very Short Answer Questions</div><div class="gdesc">Answer ALL questions &nbsp;|&nbsp; Each carries 1 mark</div></div><div class="gmarks">11 × 1 = 11</div></div>
 <div class="qbox">
-
-  <div class="qrow"><div class="qn">1.</div>
-  <div class="qt">Find the number of arrangements of the letters of the word "ARRANGE".</div>
-  <div class="qm">[1]</div></div>
-
-  <div class="qrow"><div class="qn">2.</div>
-  <div class="qt">Find the term independent of $x$ in the expansion of $\left(\sqrt{x} - \dfrac{1}{\sqrt{x}}\right)^6$.</div>
-  <div class="qm">[1]</div></div>
-
-  <div class="qrow"><div class="qn">3.</div>
-  <div class="qt">If $\omega$ is a complex cube root of unity, simplify $(1 + \omega)(1 + \omega^2)$.</div>
-  <div class="qm">[1]</div></div>
-
-  <div class="qrow"><div class="qn">4.</div>
-  <div class="qt">Find the sum $1^3 + 2^3 + 3^3 + \cdots + 6^3$.</div>
-  <div class="qm">[1]</div></div>
-
-  <div class="qrow"><div class="qn">5.</div>
-  <div class="qt">Write the solution of the system $a_1x + b_1y + c_1z = d_1$, etc., using Cramer's rule: state the formula for $z$.</div>
-  <div class="qm">[1]</div></div>
-
-  <div class="qrow"><div class="qn">6.</div>
-  <div class="qt">In $\triangle ABC$, with $s = 12$, $a = 6$, $b = 8$, $c = 10$, find $\sin\!\left(\dfrac{B}{2}\right)$ using the half-angle formula.</div>
-  <div class="qm">[1]</div></div>
-
-  <div class="qrow"><div class="qn">7.</div>
-  <div class="qt">Find the eccentricity of the ellipse $\dfrac{x^2}{25} + \dfrac{y^2}{9} = 1$.</div>
-  <div class="qm">[1]</div></div>
-
-  <div class="qrow"><div class="qn">8.</div>
-  <div class="qt">If $|\vec{a}| = 3$, $|\vec{b}| = 5$, and the angle between $\vec{a}$ and $\vec{b}$ is $60°$, find $\vec{a} \cdot \vec{b}$.</div>
-  <div class="qm">[1]</div></div>
-
-  <div class="qrow"><div class="qn">9.</div>
-  <div class="qt">Write Spearman's rank correlation formula and state its range.</div>
-  <div class="qm">[1]</div></div>
-
-  <div class="qrow"><div class="qn">10.</div>
-  <div class="qt">Differentiate $y = \tanh(x^2)$ with respect to $x$.</div>
-  <div class="qm">[1]</div></div>
-
-  <div class="qrow"><div class="qn">11.</div>
-  <div class="qt">Is the differential equation $(2xy)\,dx + (x^2 + 1)\,dy = 0$ exact? Give reason.</div>
-  <div class="qm">[1]</div></div>
-
+  <div class="qrow"><div class="qn">1.</div><div class="qt">Find the number of arrangements of the letters of the word "ARRANGE".</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">2.</div><div class="qt">Find the term independent of $x$ in $\left(\sqrt{x}-\dfrac{1}{\sqrt{x}}\right)^6$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">3.</div><div class="qt">If $\omega$ is a complex cube root of unity, simplify $(1+\omega)(1+\omega^2)$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">4.</div><div class="qt">Find the sum $1^3+2^3+3^3+\cdots+6^3$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">5.</div><div class="qt">Write the solution formula for $z$ using Cramer's rule for a $3\times3$ system.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">6.</div><div class="qt">In $\triangle ABC$, $s=12$, $a=6$, $b=8$, $c=10$. Find $\sin\!\left(\dfrac{B}{2}\right)$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">7.</div><div class="qt">Find the eccentricity of the ellipse $\dfrac{x^2}{25}+\dfrac{y^2}{9}=1$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">8.</div><div class="qt">If $|\vec{a}|=3$, $|\vec{b}|=5$, and angle $=60°$, find $\vec{a}\cdot\vec{b}$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">9.</div><div class="qt">Write Spearman's rank correlation formula and state its range.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">10.</div><div class="qt">Differentiate $y=\tanh(x^2)$ with respect to $x$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">11.</div><div class="qt">Is $(2xy)\,dx+(x^2+1)\,dy=0$ exact? Give reason.</div><div class="qm">[1]</div></div>
 </div>
-
-<!-- GROUP B -->
-<div class="ghdr">
-  <div><div class="gtitle">Group B — Short Answer Questions</div>
-  <div class="gdesc">Answer ALL questions &nbsp;|&nbsp; Internal choices marked OR</div></div>
-  <div class="gmarks">8 × 5 = 40</div>
-</div>
+<div class="ghdr"><div><div class="gtitle">Group B — Short Answer Questions</div><div class="gdesc">Answer ALL questions &nbsp;|&nbsp; Internal choices marked OR</div></div><div class="gmarks">8 × 5 = 40</div></div>
 <div class="qbox">
-
-  <div class="qrow"><div class="qn">12.</div>
-  <div class="qt">Using the Principle of Mathematical Induction, prove:
-  $$1^3 + 2^3 + 3^3 + \cdots + n^3 = \left[\frac{n(n+1)}{2}\right]^2$$</div>
-  <div class="qm">[5]</div></div>
-
-  <div class="qrow"><div class="qn">13.</div>
-  <div class="qt">Find all the fourth roots of the complex number $-16$ using De Moivre's theorem. Represent them on the Argand plane.</div>
-  <div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">12.</div><div class="qt">Using PMI, prove: $1^3+2^3+\cdots+n^3=\left[\dfrac{n(n+1)}{2}\right]^2$</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">13.</div><div class="qt">Find all the fourth roots of $-16$ using De Moivre's theorem. Represent on the Argand plane.</div><div class="qm">[5]</div></div>
   <div class="orr">OR</div>
-  <div class="qrow"><div class="qn"></div>
-  <div class="qt">Write the expansion of $\log(1+x)$ (without proof, $|x|\leq 1, x\neq -1$). Hence prove that:
-  $$\log 2 = 1 - \frac{1}{2} + \frac{1}{3} - \frac{1}{4} + \cdots$$
-  Also show that $\log\!\left(\dfrac{1+x}{1-x}\right) = 2\!\left(x + \dfrac{x^3}{3} + \dfrac{x^5}{5} + \cdots\right)$.</div>
-  <div class="qm">[5]</div></div>
-
-  <div class="qrow"><div class="qn">14.</div>
-  <div class="qt">In any $\triangle ABC$, prove the <strong>cosine law</strong>:
-  $$a^2 = b^2 + c^2 - 2bc\cos A$$
-  Hence find the greatest angle of a triangle with sides $a = 5$, $b = 7$, $c = 8$.</div>
-  <div class="qm">[5]</div></div>
-
-  <div class="qrow"><div class="qn">15.</div>
-  <div class="qt">Find the condition that the line $y = mx + c$ is tangent to the circle $x^2 + y^2 = a^2$. Also find the coordinates of the point of tangency and the equation of the normal at that point.</div>
-  <div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn"></div><div class="qt">Write the expansion of $\log(1+x)$ (without proof). Hence prove $\log 2=1-\tfrac{1}{2}+\tfrac{1}{3}-\cdots$ and show that $\log\!\left(\tfrac{1+x}{1-x}\right)=2\!\left(x+\tfrac{x^3}{3}+\tfrac{x^5}{5}+\cdots\right)$.</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">14.</div><div class="qt">In any $\triangle ABC$, prove: $a^2=b^2+c^2-2bc\cos A$. Hence find the greatest angle of a triangle with sides $a=5$, $b=7$, $c=8$.</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">15.</div><div class="qt">Find the condition that $y=mx+c$ is tangent to $x^2+y^2=a^2$. Find the coordinates of the point of tangency and equation of the normal at that point.</div><div class="qm">[5]</div></div>
   <div class="orr">OR</div>
-  <div class="qrow"><div class="qn"></div>
-  <div class="qt">Show that the equation of tangent to the ellipse $\dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} = 1$ at the point $(x_1, y_1)$ on it is:
-  $$\frac{xx_1}{a^2} + \frac{yy_1}{b^2} = 1$$
-  Hence find the tangent to the ellipse $\dfrac{x^2}{16} + \dfrac{y^2}{9} = 1$ at the point $\left(2,\, \dfrac{3\sqrt{3}}{2}\right)$.</div>
-  <div class="qm">[5]</div></div>
-
-  <div class="qrow"><div class="qn">16.</div>
-  <div class="qt">Find the standard equation of the parabola $y^2 = 4ax$ from the locus definition. Define its vertex, axis, focus, directrix, and latus rectum. Also find the length of the latus rectum.</div>
-  <div class="qm">[5]</div></div>
-
-  <div class="qrow"><div class="qn">17.</div>
-  <div class="qt">Prove that for any two vectors $\vec{a}$ and $\vec{b}$:
-  $$|\vec{a} \times \vec{b}|^2 + (\vec{a} \cdot \vec{b})^2 = |\vec{a}|^2 |\vec{b}|^2$$
-  Hence, if $|\vec{a}| = 4$, $|\vec{b}| = 3$, and $\vec{a} \cdot \vec{b} = 6$, find $|\vec{a} \times \vec{b}|$.</div>
-  <div class="qm">[5]</div></div>
-
-  <div class="qrow"><div class="qn">18.</div>
-  <div class="qt">The ranks given by two judges to 8 competitors in a music competition are:
-  <br><br>
-  <table class="dtbl">
-    <tr><th>Competitor</th><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td><td>H</td></tr>
-    <tr><th>Judge 1</th><td>3</td><td>5</td><td>8</td><td>4</td><td>7</td><td>2</td><td>6</td><td>1</td></tr>
-    <tr><th>Judge 2</th><td>4</td><td>2</td><td>7</td><td>6</td><td>8</td><td>1</td><td>5</td><td>3</td></tr>
-  </table>
-  <br>Calculate Spearman's rank correlation coefficient and interpret the result.</div>
-  <div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn"></div><div class="qt">Show that the equation of tangent to $\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1$ at $(x_1,y_1)$ is $\dfrac{xx_1}{a^2}+\dfrac{yy_1}{b^2}=1$. Find the tangent to $\dfrac{x^2}{16}+\dfrac{y^2}{9}=1$ at $\!\left(2,\tfrac{3\sqrt{3}}{2}\right)$.</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">16.</div><div class="qt">Find the standard equation of $y^2=4ax$ from its locus definition. Define vertex, axis, focus, directrix, latus rectum, and find its length.</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">17.</div><div class="qt">Prove: $|\vec{a}\times\vec{b}|^2+(\vec{a}\cdot\vec{b})^2=|\vec{a}|^2|\vec{b}|^2$. Hence, if $|\vec{a}|=4$, $|\vec{b}|=3$, $\vec{a}\cdot\vec{b}=6$, find $|\vec{a}\times\vec{b}|$.</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">18.</div><div class="qt">Ranks given by two judges to 8 competitors:<br><br><table class="dtbl"><tr><th>Competitor</th><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td><td>H</td></tr><tr><th>Judge 1</th><td>3</td><td>5</td><td>8</td><td>4</td><td>7</td><td>2</td><td>6</td><td>1</td></tr><tr><th>Judge 2</th><td>4</td><td>2</td><td>7</td><td>6</td><td>8</td><td>1</td><td>5</td><td>3</td></tr></table><br>Calculate Spearman's rank correlation and interpret.</div><div class="qm">[5]</div></div>
   <div class="orr">OR</div>
-  <div class="qrow"><div class="qn"></div>
-  <div class="qt">In a class, 30 students study Hindi, 24 study English, and 12 study both, out of a class of 60 students. A student is selected at random. Find:
-  <div class="sq" style="margin-top:4px;"><div class="sl">(i)</div><div class="st">$P(\text{Hindi} \mid \text{English})$</div></div>
-  <div class="sq"><div class="sl">(ii)</div><div class="st">$P(\text{English} \mid \text{Hindi})$</div></div>
-  <div class="sq"><div class="sl">(iii)</div><div class="st">$P(\text{exactly one subject})$</div></div></div>
-  <div class="qm">[5]</div></div>
-
-  <div class="qrow"><div class="qn">19.</div>
-  <div class="qt">Evaluate using partial fractions:
-  $$\int \frac{x^2+1}{(x-1)(x+1)(x-2)}\, dx$$</div>
-  <div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn"></div><div class="qt">30 students study Hindi, 24 study English, 12 study both, out of 60. Find: (i) $P(\text{Hindi}|\text{English})$, (ii) $P(\text{English}|\text{Hindi})$, (iii) P(exactly one subject).</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">19.</div><div class="qt">Evaluate: $\displaystyle\int\frac{x^2+1}{(x-1)(x+1)(x-2)}\,dx$</div><div class="qm">[5]</div></div>
   <div class="orr">OR</div>
-  <div class="qrow"><div class="qn"></div>
-  <div class="qt">Solve the homogeneous differential equation:
-  $$\frac{dy}{dx} = \frac{x + y}{x - y}$$</div>
-  <div class="qm">[5]</div></div>
-
+  <div class="qrow"><div class="qn"></div><div class="qt">Solve: $\dfrac{dy}{dx}=\dfrac{x+y}{x-y}$</div><div class="qm">[5]</div></div>
 </div>
-
-<!-- GROUP C -->
-<div class="ghdr">
-  <div><div class="gtitle">Group C — Long Answer Questions</div>
-  <div class="gdesc">Answer ALL questions &nbsp;|&nbsp; Each question has an internal choice</div></div>
-  <div class="gmarks">3 × 8 = 24</div>
-</div>
+<div class="ghdr"><div><div class="gtitle">Group C — Long Answer Questions</div><div class="gdesc">Answer ALL questions &nbsp;|&nbsp; Each question has an internal choice</div></div><div class="gmarks">3 × 8 = 24</div></div>
 <div class="qbox">
-
-  <div class="qrow"><div class="qn">20.</div>
-  <div class="qt">
-    <div class="sq"><div class="sl">(a)</div><div class="st">Using L'Hôpital's rule, evaluate: $\displaystyle\lim_{x \to \infty} \frac{x^2 + 3x - 1}{3x^2 - 2x + 5}$. Also evaluate $\displaystyle\lim_{x \to 0} \frac{x - \sin x}{x^3}$ using L'Hôpital's rule repeatedly. &nbsp;<em style="color:var(--muted);font-size:11.5px;">[4 marks]</em></div></div>
-    <div class="sq" style="margin-top:6px;"><div class="sl">(b)</div><div class="st">A spherical balloon is being inflated at the rate of $50 \text{ cm}^3/\text{s}$. Find the rate at which the radius is increasing when the radius is $5$ cm. Also find the rate of increase of the surface area at that instant. &nbsp;<em style="color:var(--muted);font-size:11.5px;">[4 marks]</em></div></div>
-  </div>
-  <div class="qm">[8]</div></div>
+  <div class="qrow"><div class="qn">20.</div><div class="qt"><div class="sq"><div class="sl">(a)</div><div class="st">Evaluate $\lim_{x\to\infty}\frac{x^2+3x-1}{3x^2-2x+5}$ and $\lim_{x\to0}\frac{x-\sin x}{x^3}$ using L'Hôpital's rule. <em style="color:var(--muted);font-size:11.5px;">[4 marks]</em></div></div><div class="sq" style="margin-top:6px;"><div class="sl">(b)</div><div class="st">A spherical balloon is inflated at 50 cm³/s. Find the rate of increase of radius and surface area when radius = 5 cm. <em style="color:var(--muted);font-size:11.5px;">[4 marks]</em></div></div></div><div class="qm">[8]</div></div>
   <div class="orr">OR</div>
-  <div class="qrow"><div class="qn"></div>
-  <div class="qt">Solve the exact differential equation:
-  $$(3x^2 + 4xy)\,dx + (2x^2 + 2y)\,dy = 0$$
-  Verify that it is exact, find the solution, and write the general solution.</div>
-  <div class="qm">[8]</div></div>
-
-  <div class="qrow"><div class="qn">21.</div>
-  <div class="qt">Solve the following system of equations using the <strong>Gauss-Seidel method</strong>. Start with $x^{(0)} = y^{(0)} = z^{(0)} = 0$ and perform <strong>three complete iterations</strong>:
-  $$10x + 2y + z = 13$$
-  $$3x + 10y + z = 14$$
-  $$2x + 3y + 10z = 15$$</div>
-  <div class="qm">[8]</div></div>
+  <div class="qrow"><div class="qn"></div><div class="qt">Solve the exact differential equation: $(3x^2+4xy)\,dx+(2x^2+2y)\,dy=0$. Verify exactness, find the solution, and write the general solution.</div><div class="qm">[8]</div></div>
+  <div class="qrow"><div class="qn">21.</div><div class="qt">Solve using <strong>Gauss-Seidel method</strong>. Start with $x=y=z=0$ and perform <strong>three iterations</strong>: $10x+2y+z=13$, $3x+10y+z=14$, $2x+3y+10z=15$.</div><div class="qm">[8]</div></div>
   <div class="orr">OR</div>
-  <div class="qrow"><div class="qn"></div>
-  <div class="qt">Three forces $F_1$, $F_2$, and $F_3$ act at a point and are in equilibrium. The angle between $F_1$ and $F_2$ is $120°$, between $F_2$ and $F_3$ is $150°$, and between $F_3$ and $F_1$ is $90°$.
-  <div class="sq" style="margin-top:5px;"><div class="sl">(a)</div><div class="st">State Lami's theorem and verify the angles sum to $360°$.</div></div>
-  <div class="sq"><div class="sl">(b)</div><div class="st">Using Lami's theorem, find the ratio $F_1 : F_2 : F_3$.</div></div>
-  <div class="sq"><div class="sl">(c)</div><div class="st">If $F_3 = 10\text{ N}$, find $F_1$ and $F_2$.</div></div></div>
-  <div class="qm">[8]</div></div>
-
-  <div class="qrow"><div class="qn">22.</div>
-  <div class="qt">For the following bivariate data, find:
-  <div class="sq" style="margin-top:5px;"><div class="sl">(i)</div><div class="st">Regression line of $Y$ on $X$</div></div>
-  <div class="sq"><div class="sl">(ii)</div><div class="st">Regression line of $X$ on $Y$</div></div>
-  <div class="sq"><div class="sl">(iii)</div><div class="st">Karl Pearson's coefficient of correlation</div></div>
-  <div class="sq"><div class="sl">(iv)</div><div class="st">Estimate $Y$ when $X = 38$</div></div>
-  <br>
-  <table class="dtbl">
-    <tr><th>$X$</th><td>30</td><td>35</td><td>40</td><td>45</td><td>50</td><td>55</td><td>60</td></tr>
-    <tr><th>$Y$</th><td>25</td><td>28</td><td>32</td><td>36</td><td>41</td><td>44</td><td>48</td></tr>
-  </table></div>
-  <div class="qm">[8]</div></div>
+  <div class="qrow"><div class="qn"></div><div class="qt">Three forces $F_1$, $F_2$, $F_3$ act at a point in equilibrium. Angle between $F_1$ and $F_2$ is $120°$, between $F_2$ and $F_3$ is $150°$, between $F_3$ and $F_1$ is $90°$. (a) State Lami's theorem. (b) Find ratio $F_1:F_2:F_3$. (c) If $F_3=10$ N, find $F_1$ and $F_2$.</div><div class="qm">[8]</div></div>
+  <div class="qrow"><div class="qn">22.</div><div class="qt">Find both regression lines, Karl Pearson's $r$, and estimate $Y$ when $X=38$:<br><br><table class="dtbl"><tr><th>$X$</th><td>30</td><td>35</td><td>40</td><td>45</td><td>50</td><td>55</td><td>60</td></tr><tr><th>$Y$</th><td>25</td><td>28</td><td>32</td><td>36</td><td>41</td><td>44</td><td>48</td></tr></table></div><div class="qm">[8]</div></div>
   <div class="orr">OR</div>
-  <div class="qrow"><div class="qn"></div>
-  <div class="qt">A box contains 10 items, of which 4 are defective. Three items are selected one by one without replacement. Find the probability that:
-  <div class="sq" style="margin-top:4px;"><div class="sl">(a)</div><div class="st">All three are defective.</div></div>
-  <div class="sq"><div class="sl">(b)</div><div class="st">Exactly two are defective.</div></div>
-  <div class="sq"><div class="sl">(c)</div><div class="st">None is defective.</div></div>
-  <div class="sq"><div class="sl">(d)</div><div class="st">At least one is defective.</div></div>
-  (Use conditional probability; show full working.)</div>
-  <div class="qm">[8]</div></div>
-
+  <div class="qrow"><div class="qn"></div><div class="qt">A box has 10 items, 4 defective. Three items selected without replacement. Find: (a) P(all defective), (b) P(exactly two defective), (c) P(none defective), (d) P(at least one defective).</div><div class="qm">[8]</div></div>
 </div>
-
-<div class="akey">
-  <div class="akhdr" onclick="tog(this)">✅ Group A — Answer Key &nbsp;(Click to expand) <span>▼</span></div>
-  <div class="akbody">
-    <div class="akgrid">
-      <div class="aki"><div class="akq">Q1.</div><div>$\dfrac{7!}{2!\,2!} = 1260$ (letters A,A,R,R,N,G,E)</div></div>
-      <div class="aki"><div class="akq">Q2.</div><div>$T_{r+1}=\binom{6}{r}(\sqrt{x})^{6-r}\!\left(-x^{-1/2}\right)^r=\binom{6}{r}(-1)^r x^{3-r}$; independent: $r=3$; $T_4=\binom{6}{3}(-1)^3=-20$</div></div>
-      <div class="aki"><div class="akq">Q3.</div><div>$(1+\omega)(1+\omega^2)=1+\omega^2+\omega+\omega^3=1+({\omega+\omega^2})+1=1-1+1=1$</div></div>
-      <div class="aki"><div class="akq">Q4.</div><div>$\left[\dfrac{6\times7}{2}\right]^2=21^2=441$</div></div>
-      <div class="aki"><div class="akq">Q5.</div><div>$z = D_3/D$ where $D_3$ replaces 3rd column of coeff. matrix with constants</div></div>
-      <div class="aki"><div class="akq">Q6.</div><div>$\sin\!\tfrac{B}{2}=\!\sqrt{\frac{(s-a)(s-c)}{ac}}=\!\sqrt{\frac{6\cdot2}{6\cdot10}}=\!\sqrt{\frac{1}{5}}=\frac{1}{\sqrt{5}}$</div></div>
-      <div class="aki"><div class="akq">Q7.</div><div>$e=\sqrt{1-\tfrac{9}{25}}=\sqrt{\tfrac{16}{25}}=\dfrac{4}{5}$</div></div>
-      <div class="aki"><div class="akq">Q8.</div><div>$\vec{a}\cdot\vec{b}=3\times5\times\cos60°=15\times\tfrac{1}{2}=7.5$</div></div>
-      <div class="aki"><div class="akq">Q9.</div><div>$\rho=1-\dfrac{6\Sigma d^2}{n(n^2-1)}$; range: $-1\leq\rho\leq1$</div></div>
-      <div class="aki"><div class="akq">Q10.</div><div>$\dfrac{dy}{dx}=2x\,\text{sech}^2(x^2)$</div></div>
-      <div class="aki"><div class="akq">Q11.</div><div>$M=2xy,\,N=x^2+1$; $\tfrac{\partial M}{\partial y}=2x=\tfrac{\partial N}{\partial x}$ ✓ Exact</div></div>
-    </div>
-  </div>
-</div>
-
-</div><!-- /set2 -->
-
+<div class="akey"><div class="akhdr" onclick="tog(this)">✅ Group A — Answer Key (Click to expand) <span>▼</span></div><div class="akbody"><div class="akgrid">
+  <div class="aki"><div class="akq">Q1.</div><div>$7!/(2!\cdot2!)=1260$</div></div>
+  <div class="aki"><div class="akq">Q2.</div><div>$r=3$; $T_4=-20$</div></div>
+  <div class="aki"><div class="akq">Q3.</div><div>$(1+\omega)(1+\omega^2)=1$</div></div>
+  <div class="aki"><div class="akq">Q4.</div><div>$[6\times7/2]^2=441$</div></div>
+  <div class="aki"><div class="akq">Q5.</div><div>$z=D_3/D$</div></div>
+  <div class="aki"><div class="akq">Q6.</div><div>$\sin(B/2)=1/\sqrt{5}$</div></div>
+  <div class="aki"><div class="akq">Q7.</div><div>$e=4/5$</div></div>
+  <div class="aki"><div class="akq">Q8.</div><div>$7.5$</div></div>
+  <div class="aki"><div class="akq">Q9.</div><div>$\rho=1-\frac{6\Sigma d^2}{n(n^2-1)}$; range $[-1,1]$</div></div>
+  <div class="aki"><div class="akq">Q10.</div><div>$2x\,\text{sech}^2(x^2)$</div></div>
+  <div class="aki"><div class="akq">Q11.</div><div>$\partial M/\partial y=2x=\partial N/\partial x$ ✓ Exact</div></div>
+</div></div></div>
+</div><!-- /s2 -->
 
 <!-- ═══════════════════════ SET 3 ═══════════════════════ -->
 <div class="sblock" id="s3">
-
 <div class="ehdr">
   <div class="eboard">National Examination Board (NEB) — Nepal</div>
   <div class="etitle">Grade 12 — Mathematics</div>
   <div class="esubtitle">Subject Code: Mat. 008 &nbsp;|&nbsp; Secondary Education Examination</div>
   <div class="sbadge">SET — 3</div><br>
   <div class="ptag">⭐ Predicted Paper 2081/82 B.S. — Strictly aligned with NEB Curriculum 2078</div>
-  <div class="metarow">
-    <div>Full Marks: <span>75</span></div>
-    <div>Pass Marks: <span>27</span></div>
-    <div>Time: <span>3 Hours</span></div>
-    <div>Date: <span>____________________</span></div>
-  </div>
+  <div class="metarow"><div>Full Marks: <span>75</span></div><div>Pass Marks: <span>27</span></div><div>Time: <span>3 Hours</span></div><div>Date: <span>____________________</span></div></div>
 </div>
-
-<div class="instr">
-  <strong>Candidates are required to answer questions in their own words as far as practicable.</strong>
-  Figures in the margin indicate full marks. Attempt <strong>ALL</strong> questions.
-</div>
-
-<div class="covbox">
-  <h4>📊 SET 3 — Dominant Topics (Grade 12 Only)</h4>
-  <div class="tags">
-    <span class="tg tr">🔥 Binomial Approx. + $e^x$ Series</span>
-    <span class="tg tr">🔥 Cube Roots of Unity (Properties)</span>
-    <span class="tg tr">🔥 Tangent Law + Projection Law</span>
-    <span class="tg tb">📐 Hyperbola Tangent/Normal</span>
-    <span class="tg tb">📐 Vector Applications (Geometry/Trig)</span>
-    <span class="tg tg2">📗 Exact + Separable Differential Equations</span>
-    <span class="tg tg2">📗 Hyperbolic Derivatives + Rate of Change</span>
-    <span class="tg tp">⚙ Simplex + Projectile Motion</span>
-  </div>
-</div>
-
-<!-- GROUP A -->
-<div class="ghdr">
-  <div><div class="gtitle">Group A — Very Short Answer Questions</div>
-  <div class="gdesc">Answer ALL questions &nbsp;|&nbsp; Each carries 1 mark</div></div>
-  <div class="gmarks">11 × 1 = 11</div>
-</div>
+<div class="instr"><strong>Candidates are required to answer questions in their own words as far as practicable.</strong> Figures in the margin indicate full marks. Attempt <strong>ALL</strong> questions.</div>
+<div class="covbox"><h4>📊 SET 3 — Dominant Topics</h4><div class="tags"><span class="tg tr">🔥 Binomial Approx. + $e^x$ Series</span><span class="tg tr">🔥 Cube Roots of Unity (Properties)</span><span class="tg tr">🔥 Tangent Law + Projection Law</span><span class="tg tb">📐 Hyperbola Tangent/Normal</span><span class="tg tb">📐 Vector Applications</span><span class="tg tg2">📗 Exact + Separable DEs</span><span class="tg tg2">📗 Hyperbolic Derivatives + Rate of Change</span><span class="tg tp">⚙ Simplex + Projectile Motion</span></div></div>
+<div class="ghdr"><div><div class="gtitle">Group A — Very Short Answer Questions</div><div class="gdesc">Answer ALL questions &nbsp;|&nbsp; Each carries 1 mark</div></div><div class="gmarks">11 × 1 = 11</div></div>
 <div class="qbox">
-
-  <div class="qrow"><div class="qn">1.</div>
-  <div class="qt">In how many ways can 3 boys and 2 girls be arranged in a row if all girls must stand together?</div>
-  <div class="qm">[1]</div></div>
-
-  <div class="qrow"><div class="qn">2.</div>
-  <div class="qt">Using the binomial theorem, find the approximate value of $(1.02)^5$ up to 3 decimal places.</div>
-  <div class="qm">[1]</div></div>
-
-  <div class="qrow"><div class="qn">3.</div>
-  <div class="qt">If $\omega$ is a complex cube root of unity, find the value of $(1 - \omega + \omega^2)^4$.</div>
-  <div class="qm">[1]</div></div>
-
-  <div class="qrow"><div class="qn">4.</div>
-  <div class="qt">Verify the base step ($n=1$) for the inductive proof that $\displaystyle\sum_{k=1}^n \frac{1}{k(k+1)} = \frac{n}{n+1}$.</div>
-  <div class="qm">[1]</div></div>
-
-  <div class="qrow"><div class="qn">5.</div>
-  <div class="qt">Using the matrix inverse method, write the solution $\vec{x} = A^{-1}\vec{b}$ for the system $A\vec{x} = \vec{b}$. State the condition on $A$.</div>
-  <div class="qm">[1]</div></div>
-
-  <div class="qrow"><div class="qn">6.</div>
-  <div class="qt">In $\triangle ABC$, $A = 30°$, $B = 45°$, $C = 105°$. Using the projection law, state $a = b\cos C + c\cos B$. If $b = 4$, $c = 3$, find $a$.</div>
-  <div class="qm">[1]</div></div>
-
-  <div class="qrow"><div class="qn">7.</div>
-  <div class="qt">Write the equation of the tangent to the hyperbola $\dfrac{x^2}{a^2} - \dfrac{y^2}{b^2} = 1$ at the point $(x_1, y_1)$.</div>
-  <div class="qm">[1]</div></div>
-
-  <div class="qrow"><div class="qn">8.</div>
-  <div class="qt">Find the volume of the parallelepiped with edges $\vec{a} = \hat{i} + \hat{j}$, $\vec{b} = \hat{j} + \hat{k}$, $\vec{c} = \hat{k} + \hat{i}$.</div>
-  <div class="qm">[1]</div></div>
-
-  <div class="qrow"><div class="qn">9.</div>
-  <div class="qt">If $\bar{x} = 25$, $\bar{y} = 30$, $\sigma_x = 4$, $\sigma_y = 5$, $r = 0.8$, write the regression line of $Y$ on $X$.</div>
-  <div class="qm">[1]</div></div>
-
-  <div class="qrow"><div class="qn">10.</div>
-  <div class="qt">Find $\dfrac{d}{dx}\!\left[\cosh^{-1}(x)\right]$.</div>
-  <div class="qm">[1]</div></div>
-
-  <div class="qrow"><div class="qn">11.</div>
-  <div class="qt">Solve the separable differential equation: $y\,dy = x\,dx$. Write the general solution.</div>
-  <div class="qm">[1]</div></div>
-
+  <div class="qrow"><div class="qn">1.</div><div class="qt">In how many ways can 3 boys and 2 girls be arranged in a row if all girls must stand together?</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">2.</div><div class="qt">Using the binomial theorem, find the approximate value of $(1.02)^5$ up to 3 decimal places.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">3.</div><div class="qt">If $\omega$ is a complex cube root of unity, find $(1-\omega+\omega^2)^4$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">4.</div><div class="qt">Verify the base step ($n=1$) for: $\displaystyle\sum_{k=1}^n\frac{1}{k(k+1)}=\frac{n}{n+1}$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">5.</div><div class="qt">Write the solution $\vec{x}=A^{-1}\vec{b}$ for the system $A\vec{x}=\vec{b}$. State the condition on $A$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">6.</div><div class="qt">In $\triangle ABC$, $A=30°$, $B=45°$, $C=105°$. If $b=4$, $c=3$, use the projection law to find $a$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">7.</div><div class="qt">Write the equation of tangent to $\dfrac{x^2}{a^2}-\dfrac{y^2}{b^2}=1$ at the point $(x_1,y_1)$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">8.</div><div class="qt">Find the volume of the parallelepiped with edges $\vec{a}=\hat{i}+\hat{j}$, $\vec{b}=\hat{j}+\hat{k}$, $\vec{c}=\hat{k}+\hat{i}$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">9.</div><div class="qt">If $\bar{x}=25$, $\bar{y}=30$, $\sigma_x=4$, $\sigma_y=5$, $r=0.8$, write the regression line of $Y$ on $X$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">10.</div><div class="qt">Find $\dfrac{d}{dx}[\cosh^{-1}(x)]$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">11.</div><div class="qt">Solve: $y\,dy=x\,dx$. Write the general solution.</div><div class="qm">[1]</div></div>
 </div>
-
-<!-- GROUP B -->
-<div class="ghdr">
-  <div><div class="gtitle">Group B — Short Answer Questions</div>
-  <div class="gdesc">Answer ALL questions &nbsp;|&nbsp; Internal choices marked OR</div></div>
-  <div class="gmarks">8 × 5 = 40</div>
-</div>
+<div class="ghdr"><div><div class="gtitle">Group B — Short Answer Questions</div><div class="gdesc">Answer ALL questions &nbsp;|&nbsp; Internal choices marked OR</div></div><div class="gmarks">8 × 5 = 40</div></div>
 <div class="qbox">
-
-  <div class="qrow"><div class="qn">12.</div>
-  <div class="qt">Using the Principle of Mathematical Induction, prove:
-  $$\frac{1}{1\cdot2} + \frac{1}{2\cdot3} + \frac{1}{3\cdot4} + \cdots + \frac{1}{n(n+1)} = \frac{n}{n+1}$$</div>
-  <div class="qm">[5]</div></div>
-
-  <div class="qrow"><div class="qn">13.</div>
-  <div class="qt">If $1, \omega, \omega^2$ are the three cube roots of unity, prove that:
-  <div class="sq" style="margin-top:5px;"><div class="sl">(a)</div><div class="st">$1 + \omega + \omega^2 = 0$ and $\omega^3 = 1$</div></div>
-  <div class="sq"><div class="sl">(b)</div><div class="st">$(1 + \omega)^3 - (1 + \omega^2)^3 = 0$</div></div>
-  <div class="sq"><div class="sl">(c)</div><div class="st">$(1 - \omega)(1 - \omega^2)(1 - \omega^4)(1 - \omega^5) = 9$</div></div></div>
-  <div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">12.</div><div class="qt">Using PMI, prove: $\dfrac{1}{1\cdot2}+\dfrac{1}{2\cdot3}+\cdots+\dfrac{1}{n(n+1)}=\dfrac{n}{n+1}$</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">13.</div><div class="qt">If $1,\omega,\omega^2$ are cube roots of unity, prove: (a) $1+\omega+\omega^2=0$, $\omega^3=1$, (b) $(1+\omega)^3-(1+\omega^2)^3=0$, (c) $(1-\omega)(1-\omega^2)(1-\omega^4)(1-\omega^5)=9$.</div><div class="qm">[5]</div></div>
   <div class="orr">OR</div>
-  <div class="qrow"><div class="qn"></div>
-  <div class="qt">Using the binomial theorem for any index, expand $(1 - 2x)^{-1/2}$ up to the term in $x^3$. Hence find the approximate value of $\dfrac{1}{\sqrt{0.96}}$ correct to 4 decimal places.</div>
-  <div class="qm">[5]</div></div>
-
-  <div class="qrow"><div class="qn">14.</div>
-  <div class="qt">Prove the <strong>tangent law</strong> (Napier's analogy) for a triangle:
-  $$\frac{a - b}{a + b} = \frac{\tan\frac{A-B}{2}}{\tan\frac{A+B}{2}}$$
-  Hence find $\tan\!\left(\dfrac{A-B}{2}\right)$ if $a = 9$, $b = 3$, $C = 60°$.</div>
-  <div class="qm">[5]</div></div>
-
-  <div class="qrow"><div class="qn">15.</div>
-  <div class="qt">Find the equations of tangent and normal to the hyperbola $\dfrac{x^2}{9} - \dfrac{y^2}{4} = 1$ at the point $(3\sec\theta, 2\tan\theta)$. Simplify to the standard form.</div>
-  <div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn"></div><div class="qt">Using the binomial theorem for any index, expand $(1-2x)^{-1/2}$ up to $x^3$. Hence find the approximate value of $\dfrac{1}{\sqrt{0.96}}$ correct to 4 decimal places.</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">14.</div><div class="qt">Prove the tangent law: $\dfrac{a-b}{a+b}=\dfrac{\tan\frac{A-B}{2}}{\tan\frac{A+B}{2}}$. Hence find $\tan\!\left(\dfrac{A-B}{2}\right)$ if $a=9$, $b=3$, $C=60°$.</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">15.</div><div class="qt">Find the equations of tangent and normal to $\dfrac{x^2}{9}-\dfrac{y^2}{4}=1$ at $(3\sec\theta,2\tan\theta)$. Simplify to standard form.</div><div class="qm">[5]</div></div>
   <div class="orr">OR</div>
-  <div class="qrow"><div class="qn"></div>
-  <div class="qt">Find the equation of the parabola with vertex at origin and axis along the positive $y$-axis passing through the point $(4, -8)$. Also find the focus, directrix, and the length of the latus rectum.</div>
-  <div class="qm">[5]</div></div>
-
-  <div class="qrow"><div class="qn">16.</div>
-  <div class="qt">Solve the system using <strong>Cramer's rule</strong>:
-  $$2x - y + z = 3$$
-  $$x + y + 2z = 6$$
-  $$3x - y - z = 4$$</div>
-  <div class="qm">[5]</div></div>
-
-  <div class="qrow"><div class="qn">17.</div>
-  <div class="qt">Using vector methods, prove:
-  <div class="sq" style="margin-top:5px;"><div class="sl">(a)</div><div class="st">The area of a triangle with adjacent sides $\vec{a}$ and $\vec{b}$ is $\dfrac{1}{2}|\vec{a}\times\vec{b}|$.</div></div>
-  <div class="sq"><div class="sl">(b)</div><div class="st">$\sin(A+B) = \sin A\cos B + \cos A\sin B$ using the cross product of unit vectors.</div></div></div>
-  <div class="qm">[5]</div></div>
-
-  <div class="qrow"><div class="qn">18.</div>
-  <div class="qt">Using the given summary statistics, find both regression lines and the coefficient of correlation:
-  $$n = 8,\quad \Sigma x = 64,\quad \Sigma y = 80,\quad \Sigma x^2 = 524, \quad \Sigma y^2 = 836,\quad \Sigma xy = 656$$
-  Also estimate $Y$ when $X = 10$.</div>
-  <div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn"></div><div class="qt">Find the equation of the parabola with vertex at origin, axis along the positive $y$-axis, passing through $(4,-8)$. Find the focus, directrix, and length of latus rectum.</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">16.</div><div class="qt">Solve using <strong>Cramer's rule</strong>: $2x-y+z=3$, $x+y+2z=6$, $3x-y-z=4$.</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">17.</div><div class="qt">Using vector methods, prove: (a) Area of triangle $=\tfrac{1}{2}|\vec{a}\times\vec{b}|$. (b) $\sin(A+B)=\sin A\cos B+\cos A\sin B$ using cross product of unit vectors.</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">18.</div><div class="qt">Using summary statistics $n=8$, $\Sigma x=64$, $\Sigma y=80$, $\Sigma x^2=524$, $\Sigma y^2=836$, $\Sigma xy=656$, find both regression lines and $r$. Estimate $Y$ when $X=10$.</div><div class="qm">[5]</div></div>
   <div class="orr">OR</div>
-  <div class="qrow"><div class="qn"></div>
-  <div class="qt">Two cards are drawn one by one without replacement from a standard deck of 52 cards. Find:
-  <div class="sq" style="margin-top:4px;"><div class="sl">(i)</div><div class="st">$P(\text{both are aces})$</div></div>
-  <div class="sq"><div class="sl">(ii)</div><div class="st">$P(\text{first is a king, second is a queen})$</div></div>
-  <div class="sq"><div class="sl">(iii)</div><div class="st">$P(\text{at least one heart})$</div></div>
-  (Use conditional probability formula throughout.)</div>
-  <div class="qm">[5]</div></div>
-
-  <div class="qrow"><div class="qn">19.</div>
-  <div class="qt">Evaluate:
-  $$\int \frac{2x^2 - x + 4}{x^3 + 4x}\,dx \qquad \left[= \int \frac{2x^2 - x + 4}{x(x^2+4)}\,dx\right]$$
-  (Use partial fractions.)</div>
-  <div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn"></div><div class="qt">Two cards drawn without replacement from 52 cards. Find: (i) P(both aces), (ii) P(first king, second queen), (iii) P(at least one heart).</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">19.</div><div class="qt">Evaluate: $\displaystyle\int\frac{2x^2-x+4}{x(x^2+4)}\,dx$ using partial fractions.</div><div class="qm">[5]</div></div>
   <div class="orr">OR</div>
-  <div class="qrow"><div class="qn"></div>
-  <div class="qt">Solve the separable differential equation:
-  $$\frac{dy}{dx} = e^{x+y} + x^2 e^y$$
-  and find the particular solution satisfying $y(0) = 0$.</div>
-  <div class="qm">[5]</div></div>
-
+  <div class="qrow"><div class="qn"></div><div class="qt">Solve: $\dfrac{dy}{dx}=e^{x+y}+x^2e^y$, with particular solution satisfying $y(0)=0$.</div><div class="qm">[5]</div></div>
 </div>
-
-<!-- GROUP C -->
-<div class="ghdr">
-  <div><div class="gtitle">Group C — Long Answer Questions</div>
-  <div class="gdesc">Answer ALL questions &nbsp;|&nbsp; Each question has an internal choice</div></div>
-  <div class="gmarks">3 × 8 = 24</div>
-</div>
+<div class="ghdr"><div><div class="gtitle">Group C — Long Answer Questions</div><div class="gdesc">Answer ALL questions &nbsp;|&nbsp; Each question has an internal choice</div></div><div class="gmarks">3 × 8 = 24</div></div>
 <div class="qbox">
-
-  <div class="qrow"><div class="qn">20.</div>
-  <div class="qt">
-    <div class="sq"><div class="sl">(a)</div><div class="st">Differentiate $y = \ln[\cosh(3x)]$ with respect to $x$. Also find $\dfrac{d^2y}{dx^2}$ and show that $\dfrac{d^2y}{dx^2} = 9(1 - \tanh^2 3x)$. &nbsp;<em style="color:var(--muted);font-size:11.5px;">[4 marks]</em></div></div>
-    <div class="sq" style="margin-top:6px;"><div class="sl">(b)</div><div class="st">The displacement of a particle at time $t$ seconds is $s = 2t^3 - 9t^2 + 12t - 4$ metres. Find: (i) the velocity and acceleration when $t = 2$, (ii) the time(s) when the particle is momentarily at rest, (iii) the maximum displacement in the interval $[0, 3]$. &nbsp;<em style="color:var(--muted);font-size:11.5px;">[4 marks]</em></div></div>
-  </div>
-  <div class="qm">[8]</div></div>
+  <div class="qrow"><div class="qn">20.</div><div class="qt"><div class="sq"><div class="sl">(a)</div><div class="st">Differentiate $y=\ln[\cosh(3x)]$. Find $y''$ and show $y''=9(1-\tanh^2 3x)$. <em style="color:var(--muted);font-size:11.5px;">[4 marks]</em></div></div><div class="sq" style="margin-top:6px;"><div class="sl">(b)</div><div class="st">Displacement $s=2t^3-9t^2+12t-4$. Find (i) velocity and acceleration at $t=2$, (ii) time(s) when particle is at rest, (iii) maximum displacement on $[0,3]$. <em style="color:var(--muted);font-size:11.5px;">[4 marks]</em></div></div></div><div class="qm">[8]</div></div>
   <div class="orr">OR</div>
-  <div class="qrow"><div class="qn"></div>
-  <div class="qt">Solve the differential equation:
-  $$(x^2 - y^2)\,dx + 2xy\,dy = 0$$
-  Identify its type (homogeneous or exact), show your working clearly, and find the general solution.</div>
-  <div class="qm">[8]</div></div>
-
-  <div class="qrow"><div class="qn">21.</div>
-  <div class="qt">Using the <strong>Simplex method</strong>, solve the following LPP:
-  <br><br>
-  <strong>Maximize</strong> $Z = 3x_1 + 5x_2$<br>
-  Subject to constraints:
-  $$x_1 + 2x_2 \leq 12, \quad 2x_1 + x_2 \leq 10, \quad x_1 + x_2 \leq 8, \quad x_1, x_2 \geq 0$$
-  Set up the initial simplex table with slack variables, perform all pivot operations, and state the optimal solution clearly.</div>
-  <div class="qm">[8]</div></div>
+  <div class="qrow"><div class="qn"></div><div class="qt">Solve: $(x^2-y^2)\,dx+2xy\,dy=0$. Identify its type, show working, and find the general solution.</div><div class="qm">[8]</div></div>
+  <div class="qrow"><div class="qn">21.</div><div class="qt">Using <strong>Simplex method</strong>, maximize $Z=3x_1+5x_2$ subject to: $x_1+2x_2\leq12$, $2x_1+x_2\leq10$, $x_1+x_2\leq8$, $x_1,x_2\geq0$. State the optimal solution clearly.</div><div class="qm">[8]</div></div>
   <div class="orr">OR</div>
-  <div class="qrow"><div class="qn"></div>
-  <div class="qt">A ball is projected horizontally from the top of a cliff 80 m high with a velocity of $20\, \text{m/s}$.
-  <div class="sq" style="margin-top:5px;"><div class="sl">(a)</div><div class="st">Find the time taken to reach the ground.</div></div>
-  <div class="sq"><div class="sl">(b)</div><div class="st">Find the horizontal distance from the base of the cliff where the ball lands.</div></div>
-  <div class="sq"><div class="sl">(c)</div><div class="st">Find the velocity (magnitude and direction) of the ball just before hitting the ground.</div></div>
-  <div class="sq"><div class="sl">(d)</div><div class="st">A second ball is projected at $30°$ to the horizontal with the same initial speed of $20\, \text{m/s}$ from the ground. Find its maximum height, time of flight, and range.</div></div>
-  [Use $g = 10\, \text{m/s}^2$]</div>
-  <div class="qm">[8]</div></div>
-
-  <div class="qrow"><div class="qn">22.</div>
-  <div class="qt">The following table gives marks obtained by 10 students in two tests:
-  <br><br>
-  <table class="dtbl">
-    <tr><th>Student</th><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr>
-    <tr><th>Test 1 $(X)$</th><td>55</td><td>60</td><td>65</td><td>70</td><td>72</td><td>58</td><td>75</td><td>68</td><td>80</td><td>85</td></tr>
-    <tr><th>Test 2 $(Y)$</th><td>52</td><td>58</td><td>60</td><td>66</td><td>70</td><td>55</td><td>72</td><td>65</td><td>78</td><td>82</td></tr>
-  </table>
-  <br>
-  Find: (i) Karl Pearson's coefficient of correlation, (ii) both regression lines, (iii) estimate $Y$ when $X = 74$ and $X$ when $Y = 64$.</div>
-  <div class="qm">[8]</div></div>
+  <div class="qrow"><div class="qn"></div><div class="qt">A ball is projected horizontally from a cliff 80 m high at 20 m/s. (a) Time to reach ground. (b) Horizontal distance from base. (c) Velocity just before impact. (d) A second ball projected at 30° from the ground at 20 m/s: find max height, time of flight, and range. [$g=10$ m/s²]</div><div class="qm">[8]</div></div>
+  <div class="qrow"><div class="qn">22.</div><div class="qt">Marks of 10 students in two tests:<br><br><table class="dtbl"><tr><th>Student</th><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr><tr><th>Test 1 $(X)$</th><td>55</td><td>60</td><td>65</td><td>70</td><td>72</td><td>58</td><td>75</td><td>68</td><td>80</td><td>85</td></tr><tr><th>Test 2 $(Y)$</th><td>52</td><td>58</td><td>60</td><td>66</td><td>70</td><td>55</td><td>72</td><td>65</td><td>78</td><td>82</td></tr></table><br>Find: (i) Karl Pearson's $r$, (ii) both regression lines, (iii) estimate $Y$ when $X=74$ and $X$ when $Y=64$.</div><div class="qm">[8]</div></div>
   <div class="orr">OR</div>
-  <div class="qrow"><div class="qn"></div>
-  <div class="qt">Solve the following system using <strong>Gauss Elimination</strong>:
-  $$2x + y - z = 1$$
-  $$x - y + z = 2$$
-  $$3x + 2y + z = 7$$
-  Also write the system in matrix form $AX = B$ and verify your solution by computing $A^{-1}B$.</div>
-  <div class="qm">[8]</div></div>
-
+  <div class="qrow"><div class="qn"></div><div class="qt">Solve using <strong>Gauss Elimination</strong>: $2x+y-z=1$, $x-y+z=2$, $3x+2y+z=7$. Also write in matrix form $AX=B$ and verify your solution by computing $A^{-1}B$.</div><div class="qm">[8]</div></div>
 </div>
+<div class="akey"><div class="akhdr" onclick="tog(this)">✅ Group A — Answer Key (Click to expand) <span>▼</span></div><div class="akbody"><div class="akgrid">
+  <div class="aki"><div class="akq">Q1.</div><div>$4!\times2!=48$</div></div>
+  <div class="aki"><div class="akq">Q2.</div><div>$(1.02)^5\approx1.1040$</div></div>
+  <div class="aki"><div class="akq">Q3.</div><div>$16\omega^2$</div></div>
+  <div class="aki"><div class="akq">Q4.</div><div>LHS $=\tfrac{1}{2}=$ RHS ✓</div></div>
+  <div class="aki"><div class="akq">Q5.</div><div>$\vec{x}=A^{-1}\vec{b}$; $|A|\neq0$</div></div>
+  <div class="aki"><div class="akq">Q6.</div><div>$a\approx3.156$ (numerical)</div></div>
+  <div class="aki"><div class="akq">Q7.</div><div>$\dfrac{xx_1}{a^2}-\dfrac{yy_1}{b^2}=1$</div></div>
+  <div class="aki"><div class="akq">Q8.</div><div>$[\vec{a}\,\vec{b}\,\vec{c}]=2$</div></div>
+  <div class="aki"><div class="akq">Q9.</div><div>$Y=X+5$</div></div>
+  <div class="aki"><div class="akq">Q10.</div><div>$\dfrac{1}{\sqrt{x^2-1}},\;x>1$</div></div>
+  <div class="aki"><div class="akq">Q11.</div><div>$y^2-x^2=k$</div></div>
+</div></div></div>
+</div><!-- /s3 -->
 
-<div class="akey">
-  <div class="akhdr" onclick="tog(this)">✅ Group A — Answer Key &nbsp;(Click to expand) <span>▼</span></div>
-  <div class="akbody">
-    <div class="akgrid">
-      <div class="aki"><div class="akq">Q1.</div><div>Treat 2 girls as 1 unit: $(3+1)! \times 2! = 4!\times2=48$</div></div>
-      <div class="aki"><div class="akq">Q2.</div><div>$(1.02)^5 \approx 1+5(0.02)+10(0.02)^2+\cdots\approx 1.1040$</div></div>
-      <div class="aki"><div class="akq">Q3.</div><div>$1-\omega+\omega^2=-2\omega^2$; $(-2\omega^2)^4=16\omega^8=16\omega^2$</div></div>
-      <div class="aki"><div class="akq">Q4.</div><div>$n=1$: LHS $=\tfrac{1}{1\cdot2}=\tfrac{1}{2}$; RHS $=\tfrac{1}{2}$ ✓</div></div>
-      <div class="aki"><div class="akq">Q5.</div><div>$\vec{x}=A^{-1}\vec{b}$; condition: $|A|\neq 0$ (A is non-singular)</div></div>
-      <div class="aki"><div class="akq">Q6.</div><div>$a=4\cos105°+3\cos45°=-4\cdot\tfrac{\sqrt{6}-\sqrt{2}}{4}+\tfrac{3}{\sqrt{2}}\approx1.035+2.121\approx3.156$... (numerical answer depends on values)</div></div>
-      <div class="aki"><div class="akq">Q7.</div><div>$\dfrac{xx_1}{a^2}-\dfrac{yy_1}{b^2}=1$</div></div>
-      <div class="aki"><div class="akq">Q8.</div><div>$\vec{a}\cdot(\vec{b}\times\vec{c})=\begin{vmatrix}1&1&0\\0&1&1\\1&0&1\end{vmatrix}=1(1)-1(-1)+0=2$</div></div>
-      <div class="aki"><div class="akq">Q9.</div><div>$Y-30=0.8\cdot\tfrac{5}{4}(X-25)$; i.e., $Y=1X+5$</div></div>
-      <div class="aki"><div class="akq">Q10.</div><div>$\dfrac{d}{dx}[\cosh^{-1}x]=\dfrac{1}{\sqrt{x^2-1}},\quad x>1$</div></div>
-      <div class="aki"><div class="akq">Q11.</div><div>$\displaystyle\int y\,dy=\int x\,dx\Rightarrow \dfrac{y^2}{2}=\dfrac{x^2}{2}+C\Rightarrow y^2-x^2=k$</div></div>
-    </div>
-  </div>
+<!-- ═══════════════════════ SET 4 ═══════════════════════ -->
+<div class="sblock" id="s4">
+<div class="ehdr">
+  <div class="eboard">National Examination Board (NEB) — Nepal</div>
+  <div class="etitle">Grade 12 — Mathematics</div>
+  <div class="esubtitle">Subject Code: Mat. 008 &nbsp;|&nbsp; Secondary Education Examination</div>
+  <div class="sbadge">SET — 4</div><br>
+  <div class="ptag">⭐ Predicted Paper 2081/82 B.S. — Strictly aligned with NEB Curriculum 2078</div>
+  <div class="metarow"><div>Full Marks: <span>75</span></div><div>Pass Marks: <span>27</span></div><div>Time: <span>3 Hours</span></div><div>Date: <span>____________________</span></div></div>
 </div>
+<div class="instr"><strong>Candidates are required to answer questions in their own words as far as practicable.</strong> Figures in the margin indicate full marks. Attempt <strong>ALL</strong> questions.</div>
+<div class="covbox"><h4>📊 SET 4 — Dominant Topics</h4><div class="tags"><span class="tg tr">🔥 Circular Permutation</span><span class="tg tr">🔥 4th Roots via De Moivre's</span><span class="tg tr">🔥 Half-Angle $\cos(A/2)$ Formula</span><span class="tg tb">📐 Tangent/Normal to Circle</span><span class="tg tb">📐 Ellipse $4x^2+9y^2=36$</span><span class="tg tg2">📗 Scalar Triple Product</span><span class="tg tg2">📗 Linear DE $dy/dx+2y=6e^x$</span><span class="tg tp">⚙ Simplex + Conical Rate of Change</span></div></div>
+<div class="ghdr"><div><div class="gtitle">Group A — Very Short Answer Questions</div><div class="gdesc">Answer ALL questions &nbsp;|&nbsp; Each carries 1 mark</div></div><div class="gmarks">11 × 1 = 11</div></div>
+<div class="qbox">
+  <div class="qrow"><div class="qn">1.</div><div class="qt">In how many ways can 6 persons be seated around a circular table?</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">2.</div><div class="qt">Find the middle term in the expansion of $\left(x+\dfrac{1}{x}\right)^8$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">3.</div><div class="qt">Express $z = -2i$ in polar form.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">4.</div><div class="qt">Verify the base step ($n=1$) for PMI: $\displaystyle\sum_{k=1}^{n}k(k+1)=\dfrac{n(n+1)(n+2)}{3}$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">5.</div><div class="qt">Find $D_x$ using Cramer's rule for: $3x - y = 7$, $x + 2y = 4$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">6.</div><div class="qt">In $\triangle ABC$, $a=5$, $b=8$, $c=7$. Using the cosine law, find $\cos B$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">7.</div><div class="qt">Write the equation of the directrix of the parabola $x^2=8y$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">8.</div><div class="qt">Find $\vec{a}\times\vec{b}$ if $\vec{a}=\hat{i}+\hat{j}$ and $\vec{b}=\hat{j}+\hat{k}$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">9.</div><div class="qt">If $n=8$ and $\Sigma d^2=24$, find Spearman's rank correlation coefficient $\rho$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">10.</div><div class="qt">Evaluate $\displaystyle\lim_{x\to0}\dfrac{1-\cos x}{x^2}$ using L'Hôpital's rule.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">11.</div><div class="qt">Write the integrating factor of $\dfrac{dy}{dx}+\dfrac{y}{x}=x^2$.</div><div class="qm">[1]</div></div>
+</div>
+<div class="ghdr"><div><div class="gtitle">Group B — Short Answer Questions</div><div class="gdesc">Answer ALL questions &nbsp;|&nbsp; Internal choices marked OR</div></div><div class="gmarks">8 × 5 = 40</div></div>
+<div class="qbox">
+  <div class="qrow"><div class="qn">12.</div><div class="qt">Using PMI, prove: $1\cdot2+2\cdot3+3\cdot4+\cdots+n(n+1)=\dfrac{n(n+1)(n+2)}{3}$.</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">13.</div><div class="qt">Find all four 4th roots of $-1$ using De Moivre's theorem. Represent them on the Argand plane and verify their sum is zero.</div><div class="qm">[5]</div></div>
+  <div class="orr">OR</div>
+  <div class="qrow"><div class="qn"></div><div class="qt">Write the expansion of $e^x$ (without proof). Hence expand $e^{-x}$ and find the approximate value of $e^{-0.2}$ correct to 4 decimal places. Also show that $\cosh x = 1+\dfrac{x^2}{2!}+\dfrac{x^4}{4!}+\cdots$.</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">14.</div><div class="qt">Prove the half-angle formula: $\cos\dfrac{A}{2}=\sqrt{\dfrac{s(s-a)}{bc}}$. Hence find angle $A$ when $a=9$, $b=7$, $c=8$.</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">15.</div><div class="qt">Find the equations of the tangent and normal to the circle $x^2+y^2-4x+6y-12=0$ at the point $(5,1)$. Verify the point lies on the circle.</div><div class="qm">[5]</div></div>
+  <div class="orr">OR</div>
+  <div class="qrow"><div class="qn"></div><div class="qt">Derive the condition that the line $y=mx+c$ is tangent to the parabola $x^2=4ay$. Find the coordinates of the point of tangency and the equation of the normal at that point.</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">16.</div><div class="qt">For the ellipse $4x^2+9y^2=36$, write it in standard form and find the eccentricity, foci, vertices, and equations of directrices.</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">17.</div><div class="qt">Find the scalar triple product $[\vec{a},\vec{b},\vec{c}]$ for $\vec{a}=2\hat{i}+\hat{j}$, $\vec{b}=\hat{i}+\hat{j}+\hat{k}$, $\vec{c}=\hat{i}-\hat{j}+2\hat{k}$. Hence find the volume of the parallelepiped and state whether the vectors are coplanar.</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">18.</div><div class="qt">Find the regression line of $Y$ on $X$ and Karl Pearson's $r$ for:<br><br><table class="dtbl"><tr><th>$X$</th><td>5</td><td>10</td><td>15</td><td>20</td><td>25</td></tr><tr><th>$Y$</th><td>16</td><td>19</td><td>23</td><td>26</td><td>30</td></tr></table><br>Estimate $Y$ when $X=18$.</div><div class="qm">[5]</div></div>
+  <div class="orr">OR</div>
+  <div class="qrow"><div class="qn"></div><div class="qt">In an examination, 40% failed in Mathematics, 30% failed in English, and 15% failed in both. A student is selected at random. Find: (i) P(failed in at least one subject), (ii) P(failed in Mathematics given failed in English), (iii) P(failed in exactly one subject).</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">19.</div><div class="qt">Evaluate using partial fractions: $\displaystyle\int\frac{2x+3}{(x+1)(x+2)(x+3)}\,dx$</div><div class="qm">[5]</div></div>
+  <div class="orr">OR</div>
+  <div class="qrow"><div class="qn"></div><div class="qt">Solve the linear differential equation: $\dfrac{dy}{dx}+2y=6e^x$.</div><div class="qm">[5]</div></div>
+</div>
+<div class="ghdr"><div><div class="gtitle">Group C — Long Answer Questions</div><div class="gdesc">Answer ALL questions &nbsp;|&nbsp; Each question has an internal choice</div></div><div class="gmarks">3 × 8 = 24</div></div>
+<div class="qbox">
+  <div class="qrow"><div class="qn">20.</div><div class="qt"><div class="sq"><div class="sl">(a)</div><div class="st">Find the angle of intersection of the parabola $y=x^2$ and the line $y=x+2$. Also find the equation of tangent to $y=x^3-2x$ at the point where $x=1$. <em style="color:var(--muted);font-size:11.5px;">[4 marks]</em></div></div><div class="sq" style="margin-top:6px;"><div class="sl">(b)</div><div class="st">A conical vessel has radius $6$ cm and height $12$ cm. It is being filled with water at $2$ cm³/s. Find the rate of rise of water level when the height is $3$ cm. <em style="color:var(--muted);font-size:11.5px;">[4 marks]</em></div></div></div><div class="qm">[8]</div></div>
+  <div class="orr">OR</div>
+  <div class="qrow"><div class="qn"></div><div class="qt">Solve the homogeneous differential equation: $\dfrac{dy}{dx}=\dfrac{y^2-x^2}{2xy}$. Show your substitution clearly and state the general solution.</div><div class="qm">[8]</div></div>
+  <div class="qrow"><div class="qn">21.</div><div class="qt">Using <strong>Simplex method</strong>, maximize $Z=4x_1+3x_2$ subject to: $2x_1+x_2\leq10$, $x_1+3x_2\leq9$, $x_1,x_2\geq0$. Prepare the initial simplex table, perform all pivot operations, and state the optimal solution.</div><div class="qm">[8]</div></div>
+  <div class="orr">OR</div>
+  <div class="qrow"><div class="qn"></div><div class="qt">Solve using <strong>Gauss Elimination</strong>: $2x+y+z=5$, $4x-y+2z=11$, $3x+2y-z=3$. Show all row operations clearly.</div><div class="qm">[8]</div></div>
+  <div class="qrow"><div class="qn">22.</div><div class="qt">The following data gives marks of 7 students in Mathematics $(X)$ and Physics $(Y)$:<br><br><table class="dtbl"><tr><th>$X$</th><td>70</td><td>65</td><td>80</td><td>55</td><td>85</td><td>72</td><td>60</td></tr><tr><th>$Y$</th><td>68</td><td>62</td><td>75</td><td>50</td><td>80</td><td>70</td><td>58</td></tr></table><br>Find: (i) Karl Pearson's $r$, (ii) regression line of $Y$ on $X$, (iii) estimated $Y$ when $X=75$.</div><div class="qm">[8]</div></div>
+  <div class="orr">OR</div>
+  <div class="qrow"><div class="qn"></div><div class="qt">In a class, 20 students study Nepali only, 15 study English only, and 10 study both, out of 60 students. Find: (a) P(Nepali | English), (b) P(English | Nepali), (c) P(neither subject), (d) P(exactly one subject).</div><div class="qm">[8]</div></div>
+</div>
+<div class="akey"><div class="akhdr" onclick="tog(this)">✅ Group A — Answer Key (Click to expand) <span>▼</span></div><div class="akbody"><div class="akgrid">
+  <div class="aki"><div class="akq">Q1.</div><div>$(6-1)!=5!=120$</div></div>
+  <div class="aki"><div class="akq">Q2.</div><div>$T_5=\binom{8}{4}=70$ (the constant middle term)</div></div>
+  <div class="aki"><div class="akq">Q3.</div><div>$z=2\!\left(\cos\tfrac{3\pi}{2}+i\sin\tfrac{3\pi}{2}\right)$</div></div>
+  <div class="aki"><div class="akq">Q4.</div><div>LHS $=1(2)=2$; RHS $=\tfrac{1\cdot2\cdot3}{3}=2$ ✓</div></div>
+  <div class="aki"><div class="akq">Q5.</div><div>$D_x=\begin{vmatrix}7&-1\\4&2\end{vmatrix}=14+4=18$</div></div>
+  <div class="aki"><div class="akq">Q6.</div><div>$\cos B=\dfrac{25+49-64}{70}=\dfrac{10}{70}=\dfrac{1}{7}$</div></div>
+  <div class="aki"><div class="akq">Q7.</div><div>$y=-2$</div></div>
+  <div class="aki"><div class="akq">Q8.</div><div>$\hat{i}-\hat{j}+\hat{k}$</div></div>
+  <div class="aki"><div class="akq">Q9.</div><div>$\rho=1-\tfrac{144}{504}=\tfrac{5}{7}\approx0.714$</div></div>
+  <div class="aki"><div class="akq">Q10.</div><div>$\frac{\sin x}{2x}\to\frac{\cos x}{2}\Big|_0=\dfrac{1}{2}$</div></div>
+  <div class="aki"><div class="akq">Q11.</div><div>IF $=e^{\int(1/x)dx}=x$</div></div>
+</div></div></div>
+</div><!-- /s4 -->
 
-</div><!-- /set3 -->
+<!-- ═══════════════════════ SET 5 ═══════════════════════ -->
+<div class="sblock" id="s5">
+<div class="ehdr">
+  <div class="eboard">National Examination Board (NEB) — Nepal</div>
+  <div class="etitle">Grade 12 — Mathematics</div>
+  <div class="esubtitle">Subject Code: Mat. 008 &nbsp;|&nbsp; Secondary Education Examination</div>
+  <div class="sbadge">SET — 5</div><br>
+  <div class="ptag">⭐ Predicted Paper 2081/82 B.S. — Strictly aligned with NEB Curriculum 2078</div>
+  <div class="metarow"><div>Full Marks: <span>75</span></div><div>Pass Marks: <span>27</span></div><div>Time: <span>3 Hours</span></div><div>Date: <span>____________________</span></div></div>
+</div>
+<div class="instr"><strong>Candidates are required to answer questions in their own words as far as practicable.</strong> Figures in the margin indicate full marks. Attempt <strong>ALL</strong> questions.</div>
+<div class="covbox"><h4>📊 SET 5 — Dominant Topics</h4><div class="tags"><span class="tg tr">🔥 Row Arrangements (No-Adjacent)</span><span class="tg tr">🔥 6th Roots of Unity</span><span class="tg tr">🔥 Half-Angle $\cos(B/2)$</span><span class="tg tb">📐 Normal to Parabola</span><span class="tg tb">📐 Hyperbola Asymptotes</span><span class="tg tg2">📗 Exact DE Verification</span><span class="tg tg2">📗 Linear DE $dy/dx - y\tan x$</span><span class="tg tp">⚙ Gauss-Seidel + Lami's Theorem</span></div></div>
+<div class="ghdr"><div><div class="gtitle">Group A — Very Short Answer Questions</div><div class="gdesc">Answer ALL questions &nbsp;|&nbsp; Each carries 1 mark</div></div><div class="gmarks">11 × 1 = 11</div></div>
+<div class="qbox">
+  <div class="qrow"><div class="qn">1.</div><div class="qt">In how many ways can 3 boys and 3 girls sit in a row so that no two girls are adjacent?</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">2.</div><div class="qt">Find the coefficient of $x^3$ in the expansion of $(x+2)^7$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">3.</div><div class="qt">If $z_1=2+3i$ and $z_2=1-i$, find $|z_1\cdot z_2|$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">4.</div><div class="qt">Verify the base step: $2^n>n$ at $n=1$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">5.</div><div class="qt">State the condition on matrix $A$ for the system $AX=B$ to have a unique solution.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">6.</div><div class="qt">In $\triangle ABC$, $a=5$, $b=4$, $c=3$, $s=6$. Find $\cos\!\left(\dfrac{B}{2}\right)$ using the half-angle formula.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">7.</div><div class="qt">Write the length of the latus rectum of the ellipse $\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1$ where $a>b$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">8.</div><div class="qt">If $\vec{a}\cdot\vec{b}=|\vec{a}||\vec{b}|$, what is the angle between $\vec{a}$ and $\vec{b}$?</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">9.</div><div class="qt">If $b_{yx}=b_{xy}=0.9$, find the coefficient of correlation $r$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">10.</div><div class="qt">Differentiate $y=\tanh^{-1}(x)$ with respect to $x$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">11.</div><div class="qt">Write the integrating factor of $\dfrac{dy}{dx}+\dfrac{2x}{x^2+1}\cdot y=(x^2+1)^2$.</div><div class="qm">[1]</div></div>
+</div>
+<div class="ghdr"><div><div class="gtitle">Group B — Short Answer Questions</div><div class="gdesc">Answer ALL questions &nbsp;|&nbsp; Internal choices marked OR</div></div><div class="gmarks">8 × 5 = 40</div></div>
+<div class="qbox">
+  <div class="qrow"><div class="qn">12.</div><div class="qt">Using PMI, prove: $2+4+6+\cdots+2n=n(n+1)$.</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">13.</div><div class="qt">Find all six 6th roots of unity. Represent them on the Argand plane and show they form a regular hexagon. Verify that their sum is zero.</div><div class="qm">[5]</div></div>
+  <div class="orr">OR</div>
+  <div class="qrow"><div class="qn"></div><div class="qt">Write the expansion of $\log(1+x)$ (without proof). Hence prove that $\log\!\left(\dfrac{1+x}{1-x}\right)=2\!\left(x+\dfrac{x^3}{3}+\dfrac{x^5}{5}+\cdots\right)$. Use it to calculate $\log(1.05)$ correct to 4 decimal places.</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">14.</div><div class="qt">Prove: $\cos\dfrac{B}{2}=\sqrt{\dfrac{s(s-b)}{ac}}$. Hence find angle $B$ in the triangle with $a=5$, $b=4$, $c=3$ ($s=6$).</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">15.</div><div class="qt">Find the equation of the normal to the parabola $y^2=12x$ at the point where $y=6$. Also find where this normal meets the parabola again.</div><div class="qm">[5]</div></div>
+  <div class="orr">OR</div>
+  <div class="qrow"><div class="qn"></div><div class="qt">For the ellipse with $a=5$, $b=3$ (semi-axes), find: eccentricity, coordinates of foci, vertices, length of latus rectum, and equations of directrices. Write the standard equation of this ellipse.</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">16.</div><div class="qt">For the hyperbola $16x^2-9y^2=144$, find the eccentricity, vertices, foci, equations of asymptotes, and directrices.</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">17.</div><div class="qt">If $\overrightarrow{AB}=2\hat{i}+\hat{j}$ and $\overrightarrow{AD}=\hat{i}+2\hat{j}$ are adjacent sides of parallelogram $ABCD$, find: (a) Area of $ABCD$, (b) Lengths of diagonals $AC$ and $BD$, (c) Angle between the diagonals.</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">18.</div><div class="qt">Monthly income ($X$, thousands) and savings ($Y$, thousands) of 7 persons:<br><br><table class="dtbl"><tr><th>$X$</th><td>10</td><td>12</td><td>14</td><td>16</td><td>18</td><td>20</td><td>22</td></tr><tr><th>$Y$</th><td>3</td><td>4</td><td>5</td><td>7</td><td>8</td><td>10</td><td>12</td></tr></table><br>Find regression line of $Y$ on $X$. Estimate savings when income = 15 thousand.</div><div class="qm">[5]</div></div>
+  <div class="orr">OR</div>
+  <div class="qrow"><div class="qn"></div><div class="qt">Person A speaks truth 3 out of 4 times, B speaks truth 4 out of 5 times. They are asked the same question independently. Find the probability that: (i) both give the same answer, (ii) they contradict each other, (iii) the answer is correct (assuming both independently reach their answers).</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">19.</div><div class="qt">Evaluate using partial fractions: $\displaystyle\int\frac{3x^2+7x-2}{(x-1)(x+2)(x+3)}\,dx$</div><div class="qm">[5]</div></div>
+  <div class="orr">OR</div>
+  <div class="qrow"><div class="qn"></div><div class="qt">Solve the linear differential equation: $\dfrac{dy}{dx}-y\tan x=e^x\sec x$.</div><div class="qm">[5]</div></div>
+</div>
+<div class="ghdr"><div><div class="gtitle">Group C — Long Answer Questions</div><div class="gdesc">Answer ALL questions &nbsp;|&nbsp; Each question has an internal choice</div></div><div class="gmarks">3 × 8 = 24</div></div>
+<div class="qbox">
+  <div class="qrow"><div class="qn">20.</div><div class="qt"><div class="sq"><div class="sl">(a)</div><div class="st">Find $\dfrac{d}{dx}[\ln(\sinh x)]$ and $\dfrac{d}{dx}[x\cosh x - \sinh x]$. Simplify your answers. <em style="color:var(--muted);font-size:11.5px;">[4 marks]</em></div></div><div class="sq" style="margin-top:6px;"><div class="sl">(b)</div><div class="st">A spherical snowball melts so that its surface area decreases at 2 cm²/s. Find the rate of decrease of (i) the radius and (ii) the volume when radius = 3 cm. <em style="color:var(--muted);font-size:11.5px;">[4 marks]</em></div></div></div><div class="qm">[8]</div></div>
+  <div class="orr">OR</div>
+  <div class="qrow"><div class="qn"></div><div class="qt">Solve the exact differential equation: $(3x^2+4xy+y^2)\,dx+(2x^2+2xy)\,dy=0$. Verify exactness, show your working clearly, and state the general solution.</div><div class="qm">[8]</div></div>
+  <div class="qrow"><div class="qn">21.</div><div class="qt">Using <strong>Gauss-Seidel method</strong>, solve: $4x+y-z=8$, $2x+5y+z=11$, $x+y+4z=6$. Start with $(x,y,z)=(0,0,0)$ and perform <strong>three complete iterations</strong>.</div><div class="qm">[8]</div></div>
+  <div class="orr">OR</div>
+  <div class="qrow"><div class="qn"></div><div class="qt">Three forces are in equilibrium at a point. Magnitudes are $F_1$, $F_2$, $F_3$ with angles: between $F_1$ &amp; $F_2$ = $150°$, between $F_2$ &amp; $F_3$ = $120°$, between $F_3$ &amp; $F_1$ = $90°$. (a) State Lami's theorem and verify angles sum to $360°$. (b) Find $F_1:F_2:F_3$. (c) If $F_3=20$ N, find $F_1$ and $F_2$.</div><div class="qm">[8]</div></div>
+  <div class="qrow"><div class="qn">22.</div><div class="qt">From the following data for 8 students, find Karl Pearson's $r$, both regression lines, and estimate $Y$ when $X=22$ and $X$ when $Y=15$:<br><br><table class="dtbl"><tr><th>$X$</th><td>12</td><td>15</td><td>18</td><td>21</td><td>24</td><td>27</td><td>30</td><td>33</td></tr><tr><th>$Y$</th><td>10</td><td>14</td><td>17</td><td>20</td><td>25</td><td>26</td><td>28</td><td>32</td></tr></table></div><div class="qm">[8]</div></div>
+  <div class="orr">OR</div>
+  <div class="qrow"><div class="qn"></div><div class="qt">A lot of 20 items contains 4 defective. Two items are drawn at random (without replacement). Find: (a) P(both defective), (b) P(exactly one defective), (c) P(none defective), (d) P(at least one defective). Show all working using conditional probability.</div><div class="qm">[8]</div></div>
+</div>
+<div class="akey"><div class="akhdr" onclick="tog(this)">✅ Group A — Answer Key (Click to expand) <span>▼</span></div><div class="akbody"><div class="akgrid">
+  <div class="aki"><div class="akq">Q1.</div><div>$3!\times P(4,3)=6\times24=144$</div></div>
+  <div class="aki"><div class="akq">Q2.</div><div>$\binom{7}{4}\cdot2^4=35\times16=560$</div></div>
+  <div class="aki"><div class="akq">Q3.</div><div>$|z_1||z_2|=\sqrt{13}\cdot\sqrt{2}=\sqrt{26}$</div></div>
+  <div class="aki"><div class="akq">Q4.</div><div>$2^1=2>1$ ✓</div></div>
+  <div class="aki"><div class="akq">Q5.</div><div>$\det(A)\neq0$ (A is non-singular)</div></div>
+  <div class="aki"><div class="akq">Q6.</div><div>$\cos(B/2)=\sqrt{\frac{s(s-b)}{ac}}=\sqrt{\frac{6\cdot2}{5\cdot3}}=\sqrt{\frac{2}{5}}$</div></div>
+  <div class="aki"><div class="akq">Q7.</div><div>$\dfrac{2b^2}{a}$</div></div>
+  <div class="aki"><div class="akq">Q8.</div><div>$\theta=0°$ (parallel, same direction)</div></div>
+  <div class="aki"><div class="akq">Q9.</div><div>$r=\sqrt{0.9\times0.9}=0.9$</div></div>
+  <div class="aki"><div class="akq">Q10.</div><div>$\dfrac{1}{1-x^2},\;|x|<1$</div></div>
+  <div class="aki"><div class="akq">Q11.</div><div>IF $=e^{\int\frac{2x}{x^2+1}dx}=x^2+1$</div></div>
+</div></div></div>
+</div><!-- /s5 -->
+
+<!-- ═══════════════════════ SET 6 ═══════════════════════ -->
+<div class="sblock" id="s6">
+<div class="ehdr">
+  <div class="eboard">National Examination Board (NEB) — Nepal</div>
+  <div class="etitle">Grade 12 — Mathematics</div>
+  <div class="esubtitle">Subject Code: Mat. 008 &nbsp;|&nbsp; Secondary Education Examination</div>
+  <div class="sbadge">SET — 6</div><br>
+  <div class="ptag">⭐ Predicted Paper 2081/82 B.S. — Strictly aligned with NEB Curriculum 2078</div>
+  <div class="metarow"><div>Full Marks: <span>75</span></div><div>Pass Marks: <span>27</span></div><div>Time: <span>3 Hours</span></div><div>Date: <span>____________________</span></div></div>
+</div>
+<div class="instr"><strong>Candidates are required to answer questions in their own words as far as practicable.</strong> Figures in the margin indicate full marks. Attempt <strong>ALL</strong> questions.</div>
+<div class="covbox"><h4>📊 SET 6 — Dominant Topics</h4><div class="tags"><span class="tg tr">🔥 Restricted Committee Selection</span><span class="tg tr">🔥 PMI Divisibility</span><span class="tg tr">🔥 Cube Roots Algebraic Identities</span><span class="tg tb">📐 Tangent to Hyperbola</span><span class="tg tb">📐 Chord of Contact + Tangent Length</span><span class="tg tg2">📗 Scalar Triple Product (Geometry)</span><span class="tg tg2">📗 Linear DE with $e^{-x}\cos x$</span><span class="tg tp">⚙ Simplex + Momentum/Newton's Laws</span></div></div>
+<div class="ghdr"><div><div class="gtitle">Group A — Very Short Answer Questions</div><div class="gdesc">Answer ALL questions &nbsp;|&nbsp; Each carries 1 mark</div></div><div class="gmarks">11 × 1 = 11</div></div>
+<div class="qbox">
+  <div class="qrow"><div class="qn">1.</div><div class="qt">A committee of 3 men and 2 women is to be formed from 7 men and 5 women. In how many ways can this be done?</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">2.</div><div class="qt">Find the term independent of $x$ in the expansion of $\left(x-\dfrac{1}{x^2}\right)^9$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">3.</div><div class="qt">Express $z=\sqrt{3}-i$ in polar form.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">4.</div><div class="qt">Write the inductive step for PMI proof of $1^2+2^2+\cdots+n^2=\dfrac{n(n+1)(2n+1)}{6}$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">5.</div><div class="qt">For the system $x+2y+z=6$, $2x-y+z=5$, $x-y-2z=3$, write the value of determinant $D$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">6.</div><div class="qt">In $\triangle ABC$, $b=10$, $c=12$, $A=60°$. Find the area of the triangle.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">7.</div><div class="qt">Write the parametric equations of the parabola $y^2=4ax$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">8.</div><div class="qt">If $|\vec{a}|=7$, $|\vec{b}|=8$, and $\vec{a}\cdot\vec{b}=28\sqrt{2}$, find the angle between $\vec{a}$ and $\vec{b}$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">9.</div><div class="qt">If $r=0.8$, $\sigma_x=3$, $\sigma_y=5$, $\bar{x}=10$, $\bar{y}=12$, write the regression line of $Y$ on $X$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">10.</div><div class="qt">Find $\dfrac{d}{dx}[\text{sech}(3x)]$.</div><div class="qm">[1]</div></div>
+  <div class="qrow"><div class="qn">11.</div><div class="qt">Determine the order and degree of: $\dfrac{d^3y}{dx^3}+3\left(\dfrac{dy}{dx}\right)^2+y=0$.</div><div class="qm">[1]</div></div>
+</div>
+<div class="ghdr"><div><div class="gtitle">Group B — Short Answer Questions</div><div class="gdesc">Answer ALL questions &nbsp;|&nbsp; Internal choices marked OR</div></div><div class="gmarks">8 × 5 = 40</div></div>
+<div class="qbox">
+  <div class="qrow"><div class="qn">12.</div><div class="qt">Using PMI, prove that $7^n-1$ is divisible by $6$ for all positive integers $n$.</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">13.</div><div class="qt">If $1,\omega,\omega^2$ are cube roots of unity, prove: (a) $(a+b)(a+b\omega)(a+b\omega^2)=a^3+b^3$, (b) $(1+\omega-\omega^2)^3=-8$, (c) $x^2+y^2+z^2-xy-yz-zx=(x+y\omega+z\omega^2)(x+y\omega^2+z\omega)$.</div><div class="qm">[5]</div></div>
+  <div class="orr">OR</div>
+  <div class="qrow"><div class="qn"></div><div class="qt">Expand $(1+x)^{1/2}$ up to the term in $x^3$ using binomial theorem for any index. Hence find $\sqrt{1.08}$ correct to 4 decimal places.</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">14.</div><div class="qt">Prove the tangent law (Napier's analogy): $\dfrac{a-b}{a+b}=\dfrac{\tan\frac{A-B}{2}}{\tan\frac{A+B}{2}}$. Hence find $\tan\!\left(\dfrac{A-B}{2}\right)$ when $a=11$, $b=5$, $C=120°$.</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">15.</div><div class="qt">Show that the equation of tangent to the hyperbola $\dfrac{x^2}{a^2}-\dfrac{y^2}{b^2}=1$ at point $(x_1,y_1)$ is $\dfrac{xx_1}{a^2}-\dfrac{yy_1}{b^2}=1$. Find the tangent to $\dfrac{x^2}{16}-\dfrac{y^2}{9}=1$ at the point $\left(5,\dfrac{9}{4}\right)$.</div><div class="qm">[5]</div></div>
+  <div class="orr">OR</div>
+  <div class="qrow"><div class="qn"></div><div class="qt">Derive the standard form of the parabola $y^2=4ax$ from its focus-directrix definition. Hence find the area of the triangle formed by the vertex, focus, and one end of the latus rectum.</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">16.</div><div class="qt">Find the equation of the chord of contact from the external point $(3,5)$ to the circle $x^2+y^2=16$. Also find the length of the tangent from $(3,5)$ to this circle.</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">17.</div><div class="qt">For $\vec{a}=3\hat{i}-\hat{j}+4\hat{k}$, $\vec{b}=\hat{i}+2\hat{j}-\hat{k}$, $\vec{c}=-\hat{i}+\hat{j}+2\hat{k}$: (a) Find the scalar triple product $[\vec{a},\vec{b},\vec{c}]$. (b) Find the volume of the parallelepiped. (c) Are the vectors coplanar?</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">18.</div><div class="qt">Compute Spearman's rank correlation for:<br><br><table class="dtbl"><tr><th>Judge X rank</th><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr><tr><th>Judge Y rank</th><td>6</td><td>7</td><td>8</td><td>1</td><td>5</td><td>4</td><td>9</td><td>10</td><td>2</td><td>3</td></tr></table><br>Interpret the result.</div><div class="qm">[5]</div></div>
+  <div class="orr">OR</div>
+  <div class="qrow"><div class="qn"></div><div class="qt">Machine A produces 40% of output with 5% defective. Machine B produces 60% with 2% defective. A bolt is selected at random and found defective. Find the probability it came from Machine A. (Use conditional probability.)</div><div class="qm">[5]</div></div>
+  <div class="qrow"><div class="qn">19.</div><div class="qt">Evaluate: $\displaystyle\int\frac{x^2-5x+4}{(x-1)(x-2)(x-3)}\,dx$ using partial fractions.</div><div class="qm">[5]</div></div>
+  <div class="orr">OR</div>
+  <div class="qrow"><div class="qn"></div><div class="qt">Solve: $\dfrac{dy}{dx}-\dfrac{2y}{x}=x^2$. Find the particular solution if $y=1$ when $x=1$.</div><div class="qm">[5]</div></div>
+</div>
+<div class="ghdr"><div><div class="gtitle">Group C — Long Answer Questions</div><div class="gdesc">Answer ALL questions &nbsp;|&nbsp; Each question has an internal choice</div></div><div class="gmarks">3 × 8 = 24</div></div>
+<div class="qbox">
+  <div class="qrow"><div class="qn">20.</div><div class="qt"><div class="sq"><div class="sl">(a)</div><div class="st">Differentiate $y=\ln\!\left[\dfrac{\sinh x}{\cosh x+1}\right]$ and simplify. Also find $\dfrac{d}{dx}[\tanh^{-1}(\sin x)]$. <em style="color:var(--muted);font-size:11.5px;">[4 marks]</em></div></div><div class="sq" style="margin-top:6px;"><div class="sl">(b)</div><div class="st">A particle moves so that $x=e^t+e^{-t}$, $y=e^t-e^{-t}$. Find velocity and acceleration vectors at $t=0$, and compute the speed at $t=0$. <em style="color:var(--muted);font-size:11.5px;">[4 marks]</em></div></div></div><div class="qm">[8]</div></div>
+  <div class="orr">OR</div>
+  <div class="qrow"><div class="qn"></div><div class="qt">Solve the linear differential equation: $\dfrac{dy}{dx}+y=e^{-x}\cos x$. Find the particular solution satisfying $y(0)=0$.</div><div class="qm">[8]</div></div>
+  <div class="qrow"><div class="qn">21.</div><div class="qt">Using <strong>Simplex method</strong>, maximize $Z=5x_1+6x_2$ subject to: $x_1+x_2\leq10$, $2x_1+x_2\leq14$, $x_1+2x_2\leq14$, $x_1,x_2\geq0$. Show all simplex tables and state the optimal solution.</div><div class="qm">[8]</div></div>
+  <div class="orr">OR</div>
+  <div class="qrow"><div class="qn"></div><div class="qt">A bullet of mass 20 g is fired at 400 m/s and embeds in a block of 980 g at rest. (a) Find the velocity of block after impact (conservation of momentum). (b) Find kinetic energy before and after impact. (c) Find the fraction of kinetic energy lost. State Newton's relevant law.</div><div class="qm">[8]</div></div>
+  <div class="qrow"><div class="qn">22.</div><div class="qt">From summary statistics: $n=10$, $\Sigma x=350$, $\Sigma y=310$, $\Sigma x^2=13475$, $\Sigma y^2=10425$, $\Sigma xy=11740$. Find both regression lines, Karl Pearson's $r$, and estimate $Y$ when $X=40$.</div><div class="qm">[8]</div></div>
+  <div class="orr">OR</div>
+  <div class="qrow"><div class="qn"></div><div class="qt">From a group of 4 men and 5 women, a committee of 4 is selected. Find: (a) P(exactly 2 women), (b) P(at least 3 women), (c) P(at least 1 man). Also find the total number of ways to form the committee if at least 2 women must be included.</div><div class="qm">[8]</div></div>
+</div>
+<div class="akey"><div class="akhdr" onclick="tog(this)">✅ Group A — Answer Key (Click to expand) <span>▼</span></div><div class="akbody"><div class="akgrid">
+  <div class="aki"><div class="akq">Q1.</div><div>$\binom{7}{3}\binom{5}{2}=35\times10=350$</div></div>
+  <div class="aki"><div class="akq">Q2.</div><div>$r=3$; $T_4=\binom{9}{3}(-1)^3=-84$</div></div>
+  <div class="aki"><div class="akq">Q3.</div><div>$z=2\!\left(\cos(-\pi/6)+i\sin(-\pi/6)\right)$</div></div>
+  <div class="aki"><div class="akq">Q4.</div><div>Assume $P(k)$ true; add $(k+1)^2$; simplify to $P(k+1)$ form</div></div>
+  <div class="aki"><div class="akq">Q5.</div><div>$D=1(2+1)-2(-4-1)+1(-2+1)=3+10-1=12$</div></div>
+  <div class="aki"><div class="akq">Q6.</div><div>Area $=\tfrac{1}{2}(10)(12)\sin60°=30\sqrt{3}$</div></div>
+  <div class="aki"><div class="akq">Q7.</div><div>$x=at^2$, $y=2at$</div></div>
+  <div class="aki"><div class="akq">Q8.</div><div>$\cos\theta=\frac{28\sqrt{2}}{56}=\frac{\sqrt{2}}{2}$; $\theta=45°$</div></div>
+  <div class="aki"><div class="akq">Q9.</div><div>$b_{yx}=0.8\times\frac{5}{3}=\frac{4}{3}$; $Y-12=\frac{4}{3}(X-10)$</div></div>
+  <div class="aki"><div class="akq">Q10.</div><div>$-3\,\text{sech}(3x)\tanh(3x)$</div></div>
+  <div class="aki"><div class="akq">Q11.</div><div>Order $3$, Degree $1$</div></div>
+</div></div></div>
+</div><!-- /s6 -->
+
 
 <!-- ── FOOTER ── -->
 <div class="foot">
@@ -874,7 +531,7 @@ body{font-family:'IBM Plex Sans',sans-serif;background:var(--bg);color:var(--ink
   Implemented in Grade 12 from academic year <strong>2080 B.S.</strong><br><br>
   <strong>Topics Excluded (Grade 11 only):</strong> Limits &amp; continuity, basic derivatives by rules, integration by substitution/parts, area under curves, SD/Variance/CV, basic probability, inverse trig proofs, Newton-Raphson, Trapezoidal/Simpson's rules, determinant properties, quadratic equations, sequences (AP/GP/HP), functions.
   <br><br>
-  Practice all 3 sets under strict 3-hour timed conditions. Good luck! ✏️
+  Practice all 6 sets under strict 3-hour timed conditions. Good luck! ✏️
 </div>
 
 </div><!-- /.page -->
